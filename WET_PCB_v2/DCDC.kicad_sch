@@ -724,16 +724,6 @@
 		)
 		(uuid "5d41edfc-f2ae-4245-824c-834705654245")
 	)
-	(text "curr sense points"
-		(exclude_from_sim no)
-		(at 82.296 42.926 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8946d7ca-88f7-4130-86b3-d79987eeb5f7")
-	)
 	(text "the cap footprints are random im not sure which ones to use and if we should add more caps"
 		(exclude_from_sim no)
 		(at 90.17 92.202 0)
@@ -755,10 +745,22 @@
 		(uuid "df5628eb-b7f1-4a5e-a31e-aa7f5d9092aa")
 	)
 	(junction
+		(at 175.26 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2029aca7-37ef-49c7-a0e0-054d07746623")
+	)
+	(junction
 		(at 54.61 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "275224d7-e489-4cd0-83d4-2fbedadf268c")
+	)
+	(junction
+		(at 175.26 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4214418c-9aed-4c4b-bef4-079123ed168d")
 	)
 	(junction
 		(at 175.26 43.18)
@@ -799,6 +801,16 @@
 			(type default)
 		)
 		(uuid "00a04053-4de1-4b4a-ae6c-593d4f01c0d2")
+	)
+	(wire
+		(pts
+			(xy 175.26 46.99) (xy 175.26 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039eae0f-2e0b-43da-a040-fd8b0b1f668b")
 	)
 	(wire
 		(pts
@@ -869,6 +881,16 @@
 			(type default)
 		)
 		(uuid "37beddb6-211c-4dbb-8df2-5928fd854ed6")
+	)
+	(wire
+		(pts
+			(xy 175.26 64.77) (xy 175.26 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9f1d72-921c-4d9b-a69b-fd9937f8b469")
 	)
 	(wire
 		(pts
@@ -952,7 +974,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 43.18) (xy 175.26 52.07)
+			(xy 175.26 43.18) (xy 175.26 46.99)
 		)
 		(stroke
 			(width 0)
@@ -969,6 +991,16 @@
 			(type default)
 		)
 		(uuid "87095e4a-9772-484c-a4a8-5d3899baa481")
+	)
+	(wire
+		(pts
+			(xy 194.31 52.07) (xy 194.31 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8a011c-3bf1-4a35-9570-46c5b53e2229")
 	)
 	(wire
 		(pts
@@ -989,6 +1021,16 @@
 			(type default)
 		)
 		(uuid "918c7d1e-082b-4756-ad22-a43777205053")
+	)
+	(wire
+		(pts
+			(xy 194.31 64.77) (xy 175.26 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a759ea70-5bfb-47e7-b828-19c3ff1f1dec")
 	)
 	(wire
 		(pts
@@ -1022,13 +1064,33 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 59.69) (xy 175.26 68.58)
+			(xy 175.26 59.69) (xy 175.26 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "abeb9a4d-d10d-4508-b45d-a64d87f4bc9c")
+	)
+	(wire
+		(pts
+			(xy 194.31 46.99) (xy 175.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f32d4c-c113-486d-804e-3b1ea310167d")
+	)
+	(wire
+		(pts
+			(xy 194.31 59.69) (xy 194.31 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ac4ca7-915b-4af5-bed0-d9d63f67f2ab")
 	)
 	(wire
 		(pts
@@ -1157,6 +1219,17 @@
 		)
 		(uuid "ca15df44-422c-4e41-aa86-d0f885c5aba9")
 	)
+	(hierarchical_label "currsense_FET_side"
+		(shape input)
+		(at 91.44 43.18 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce546802-a011-4aab-876d-e74c3295abd6")
+	)
 	(hierarchical_label "Vin_DCDC+"
 		(shape input)
 		(at 40.64 43.18 180)
@@ -1167,6 +1240,17 @@
 			(justify right)
 		)
 		(uuid "d7df72c3-1919-4989-b56d-14746696b66d")
+	)
+	(hierarchical_label "currsense_cap_side"
+		(shape input)
+		(at 72.39 43.18 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dde0f635-402d-43db-817e-7e83279fb9b9")
 	)
 	(hierarchical_label "DCDC_Driver_SD"
 		(shape input)
@@ -1332,6 +1416,88 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318"
 					(reference "HS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 194.31 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36b1d420-d704-4219-b402-b92909032d92")
+		(property "Reference" "C23"
+			(at 198.12 53.7209 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 198.12 56.2609 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm"
+			(at 195.2752 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 194.31 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7d67639-2e22-442a-b055-b5a505d660a9")
+		)
+		(pin "2"
+			(uuid "5614cd79-82f0-4ffb-994d-436ad81cd872")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318"
+					(reference "C23")
 					(unit 1)
 				)
 			)

@@ -1041,6 +1041,12 @@
 		(uuid "1dcfe495-29bd-41c2-b3f6-cb4863863943")
 	)
 	(junction
+		(at 100.33 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35d6201a-4434-4996-9dd0-a6f16895c6c1")
+	)
+	(junction
 		(at 62.23 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1058,11 +1064,15 @@
 		(color 0 0 0 0)
 		(uuid "c0210761-22a8-4ba1-a6c4-6e6d1a4ae824")
 	)
-	(junction
-		(at 97.79 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f26bb65c-4dd5-4c40-a05c-45b4202729f6")
+	(wire
+		(pts
+			(xy 95.25 58.42) (xy 100.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0894c77c-3ebc-4742-ab03-fbd0c388f241")
 	)
 	(wire
 		(pts
@@ -1116,7 +1126,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 50.8) (xy 106.68 50.8)
+			(xy 97.79 50.8) (xy 100.33 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1156,6 +1166,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 50.8) (xy 106.68 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6984f4f1-2283-4089-9fd0-ce467457b80f")
+	)
+	(wire
+		(pts
 			(xy 53.34 48.26) (xy 53.34 52.07)
 		)
 		(stroke
@@ -1173,6 +1193,16 @@
 			(type default)
 		)
 		(uuid "75093dff-e874-4ffe-aefd-04050847dcda")
+	)
+	(wire
+		(pts
+			(xy 82.55 58.42) (xy 87.63 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891b3deb-250f-48bc-ace7-e63c091548b3")
 	)
 	(wire
 		(pts
@@ -1196,7 +1226,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 50.8) (xy 97.79 58.42)
+			(xy 100.33 50.8) (xy 100.33 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1233,16 +1263,6 @@
 			(type default)
 		)
 		(uuid "e7267b47-8695-43ba-a4a0-78c6499afe05")
-	)
-	(wire
-		(pts
-			(xy 82.55 58.42) (xy 97.79 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee4c2bf1-09dd-4731-b16d-bd867707f2a7")
 	)
 	(hierarchical_label "Vsense_ADC"
 		(shape output)
@@ -2157,6 +2177,86 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/419c9796-b7e1-43c1-b033-dc2479750a67"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 91.44 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c80851f1-878e-4ba3-b7c9-bde7672e72de")
+		(property "Reference" "R41"
+			(at 91.44 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0"
+			(at 91.44 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 91.44 60.198 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 91.44 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6e2f7961-2c5a-44f2-b6a6-c5073acb861b")
+		)
+		(pin "1"
+			(uuid "9702c473-e2b1-44ca-be47-254ecf7d97b6")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/419c9796-b7e1-43c1-b033-dc2479750a67"
+					(reference "R41")
 					(unit 1)
 				)
 			)

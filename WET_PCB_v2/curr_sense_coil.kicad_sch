@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "ebfd4ca5-50ef-4774-b0e6-23f44d08ddb0")
+	(uuid "9509f56b-b579-44f8-891f-15fbb2ac1143")
 	(paper "A4")
 	(lib_symbols)
 	(text "design circuit for current sensor"
