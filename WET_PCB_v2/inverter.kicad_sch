@@ -433,6 +433,161 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:1N4004"
 			(pin_numbers
 				(hide yes)
@@ -2201,6 +2356,12 @@
 		(uuid "06198bad-ced4-4eb7-bccb-3e134ddf48f2")
 	)
 	(junction
+		(at 44.45 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "071ecb53-bbd4-41bd-80e9-d25322e3c7bd")
+	)
+	(junction
 		(at 74.93 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2243,6 +2404,12 @@
 		(uuid "28a1a4cd-ce26-48c4-ab6b-0f521fb1f9fa")
 	)
 	(junction
+		(at 140.97 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2be3c300-5a05-478c-9fbd-a325aebca112")
+	)
+	(junction
 		(at 147.32 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2253,6 +2420,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36004ff7-262c-48c8-8a9c-dcb0e581b32a")
+	)
+	(junction
+		(at 153.67 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4be1f03f-9b07-4d8d-98cb-514db8c8eb56")
 	)
 	(junction
 		(at 140.97 66.04)
@@ -2285,12 +2458,6 @@
 		(uuid "706e70f1-06e4-44bd-bd03-b522c8935f8e")
 	)
 	(junction
-		(at 153.67 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "776a5440-1573-4c29-ab74-ef10ea2cf2b9")
-	)
-	(junction
 		(at 187.96 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2319,12 +2486,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b37b6c9-1a4e-4047-8a18-a0fff498b83b")
-	)
-	(junction
-		(at 140.97 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e36f72b-b85e-4c01-ab26-93eb862fa030")
 	)
 	(junction
 		(at 77.47 39.37)
@@ -2373,6 +2534,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd2506ff-6a1d-431d-b7a2-1939097028f8")
+	)
+	(junction
+		(at 250.19 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5276b9a-8950-4c25-a0e2-371a7df27eaf")
 	)
 	(junction
 		(at 140.97 67.31)
@@ -2786,6 +2953,26 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 29.21) (xy 250.19 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "516b0399-c954-4d60-823e-b802d699007b")
+	)
+	(wire
+		(pts
+			(xy 140.97 53.34) (xy 143.51 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ba9fe2-04f1-494b-b4fc-60ee0d46b6e5")
+	)
+	(wire
+		(pts
 			(xy 83.82 77.47) (xy 77.47 77.47)
 		)
 		(stroke
@@ -2826,7 +3013,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 25.4) (xy 44.45 39.37)
+			(xy 44.45 25.4) (xy 44.45 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2853,6 +3040,26 @@
 			(type default)
 		)
 		(uuid "5fbcd064-8bef-4007-a8a9-e7846a9ced44")
+	)
+	(wire
+		(pts
+			(xy 151.13 53.34) (xy 153.67 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62242b22-dec8-44d1-af03-1daad880bd5b")
+	)
+	(wire
+		(pts
+			(xy 252.73 29.21) (xy 250.19 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651198a1-3844-4ace-a953-b8f8fc113dc3")
 	)
 	(wire
 		(pts
@@ -3086,7 +3293,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 25.4) (xy 250.19 39.37)
+			(xy 250.19 25.4) (xy 250.19 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3133,6 +3340,16 @@
 			(type default)
 		)
 		(uuid "997742e7-b913-4d81-92da-e203a2ec3e8c")
+	)
+	(wire
+		(pts
+			(xy 267.97 29.21) (xy 265.43 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a02d7616-f788-4859-9926-96977524bf4a")
 	)
 	(wire
 		(pts
@@ -3526,6 +3743,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 27.94) (xy 44.45 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9fff9ec-f169-4489-afa2-756b16936048")
+	)
+	(wire
+		(pts
 			(xy 31.75 62.23) (xy 36.83 62.23)
 		)
 		(stroke
@@ -3593,6 +3820,16 @@
 			(type default)
 		)
 		(uuid "f820520f-04f4-44ef-ba0f-ebdcc3375166")
+	)
+	(wire
+		(pts
+			(xy 26.67 27.94) (xy 31.75 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc88f1b7-38d0-42df-8d09-20baacde7858")
 	)
 	(wire
 		(pts
@@ -4863,6 +5100,84 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 26.67 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b1790e8-62f0-40ac-8907-374b5a53a0ee")
+		(property "Reference" "#PWR065"
+			(at 26.67 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.67 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8156f929-08e0-4dbe-9fe7-90172d15c7a5")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -6258,6 +6573,148 @@
 		)
 	)
 	(symbol
+		(lib_id "C322C104K5R5TA:C322C104K5R5TA")
+		(at 252.73 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ddde717-07e0-43a1-b72f-570af13de011")
+		(property "Reference" "C26"
+			(at 259.08 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C322C104K5R5TA"
+			(at 259.08 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 261.62 125.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1050_GOLDMAX_X7R"
+			(at 261.62 225.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "GoldMax, Commercial Standard"
+			(at 252.73 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "6.6"
+			(at 261.62 425.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 261.62 525.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 261.62 625.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 261.62 725.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C322C104K5R5TA"
+			(at 261.62 825.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "f82751a5-f23f-4c85-8dfe-b2d579065c71")
+		)
+		(pin "2"
+			(uuid "7a0ad65d-8df7-4801-bf63-b8d71d248d4f")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MF25_10K:MF25_10K")
 		(at 106.68 82.55 90)
 		(unit 1)
@@ -6538,6 +6995,86 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 267.97 29.21 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bb81ae9-b34b-4753-8dcd-bb7ccf7a43f5")
+		(property "Reference" "#PWR066"
+			(at 267.97 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20911999-a68a-4b2a-b8ff-3659e72bcf96")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -7029,6 +7566,148 @@
 	)
 	(symbol
 		(lib_id "C322C104K5R5TA:C322C104K5R5TA")
+		(at 31.75 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2f928af-409a-483b-8539-802c755da90e")
+		(property "Reference" "C25"
+			(at 38.1 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C322C104K5R5TA"
+			(at 38.1 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 40.64 124.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1050_GOLDMAX_X7R"
+			(at 40.64 224.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "GoldMax, Commercial Standard"
+			(at 31.75 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "6.6"
+			(at 40.64 424.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 40.64 524.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 40.64 624.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 40.64 724.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C322C104K5R5TA"
+			(at 40.64 824.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "fbc2cc4b-13d7-41e3-a4aa-700d6dde998c")
+		)
+		(pin "2"
+			(uuid "a7ac9ec8-1f82-45a0-af7b-c9caf5e61570")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C322C104K5R5TA:C322C104K5R5TA")
 		(at 29.21 39.37 0)
 		(unit 1)
 		(body_style 1)
@@ -7243,148 +7922,6 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "B32529C1104K000:B32529C1104K000")
-		(at 140.97 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb912172-1744-4598-a785-8d7a479bf469")
-		(property "Reference" "C3"
-			(at 147.32 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B32529C1104K000"
-			(at 147.32 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
-			(at 149.86 149.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkt/data_sheet/20/20/db/fc_2009/b32520_529.pdf"
-			(at 149.86 249.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "EPCOS - B32529C1104K000 - General Purpose Film Capacitor, Metallized PET Stacked, Radial Box - 2 Pin, 0.1 F, +/- 10%, 63 V//"
-			(at 140.97 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "6.5"
-			(at 149.86 449.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Farnell Part Number" ""
-			(at 149.86 549.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Farnell Price/Stock" ""
-			(at 149.86 649.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "TDK"
-			(at 149.86 749.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B32529C1104K000"
-			(at 149.86 849.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "eaa35f01-08a3-4897-a3d1-65122984f1b4")
-		)
-		(pin "2"
-			(uuid "f3a6ede7-7c53-40c1-ae56-e260bbf66c8c")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -7670,6 +8207,86 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 147.32 53.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f22feadf-78a2-45dc-836d-617909d9fce8")
+		(property "Reference" "C3"
+			(at 147.32 45.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 147.32 48.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 52.3748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "42317ed5-97b8-47ab-85fb-daa8d7989481")
+		)
+		(pin "1"
+			(uuid "01f7e617-b47c-4ea7-afc3-744f7268d6b9")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
+					(reference "C3")
 					(unit 1)
 				)
 			)

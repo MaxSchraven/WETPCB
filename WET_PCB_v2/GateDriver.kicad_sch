@@ -1575,6 +1575,12 @@
 		(uuid "82ea5d56-6cdb-4c2b-ac5c-e04bce20f85c")
 	)
 	(junction
+		(at 83.82 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d5d53ef-d9fb-44bf-a486-07b59a0d769c")
+	)
+	(junction
 		(at 83.82 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1712,7 +1718,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 33.02) (xy 83.82 46.99)
+			(xy 83.82 33.02) (xy 83.82 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1809,6 +1815,16 @@
 			(type default)
 		)
 		(uuid "6a04b951-7307-4092-baae-84ac682883b7")
+	)
+	(wire
+		(pts
+			(xy 66.04 36.83) (xy 69.85 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b7382f2-33cf-4500-ae49-debde4e2d179")
 	)
 	(wire
 		(pts
@@ -1972,6 +1988,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 36.83) (xy 83.82 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba247d14-e6fc-4c3d-bf07-2be94ffe6aa0")
+	)
+	(wire
+		(pts
 			(xy 154.94 60.96) (xy 154.94 64.77)
 		)
 		(stroke
@@ -2039,6 +2065,16 @@
 			(type default)
 		)
 		(uuid "da0f7a23-d000-4591-a7c5-2a6589062f2d")
+	)
+	(wire
+		(pts
+			(xy 82.55 36.83) (xy 83.82 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac95cb2-6c9a-4639-9d17-227c02419ef9")
 	)
 	(wire
 		(pts
@@ -3712,6 +3748,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 66.04 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df395c8a-b2f6-4de1-aee9-69ec6d325e75")
+		(property "Reference" "#PWR064"
+			(at 66.04 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "305d9999-6375-4dbb-96f2-11fc20aeeed8")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318/ed463157-80b7-4a9f-82d4-4d12eed2bec3"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4004")
 		(at 135.89 53.34 0)
 		(unit 1)
@@ -3808,6 +3922,148 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318/ed463157-80b7-4a9f-82d4-4d12eed2bec3"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C322C104K5R5TA:C322C104K5R5TA")
+		(at 69.85 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f77b9a77-a3c5-4a26-ad56-0ce3cd5f26e7")
+		(property "Reference" "C24"
+			(at 76.2 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C322C104K5R5TA"
+			(at 76.2 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 78.74 133.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1050_GOLDMAX_X7R"
+			(at 78.74 233.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "GoldMax, Commercial Standard"
+			(at 69.85 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "6.6"
+			(at 78.74 433.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 78.74 533.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 78.74 633.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 78.74 733.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C322C104K5R5TA"
+			(at 78.74 833.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "caaf20fe-846e-4809-9f55-53fc2504c80d")
+		)
+		(pin "2"
+			(uuid "219b2fba-e96f-4fa9-ad27-115270d918f0")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318/ed463157-80b7-4a9f-82d4-4d12eed2bec3"
+					(reference "C24")
 					(unit 1)
 				)
 			)
