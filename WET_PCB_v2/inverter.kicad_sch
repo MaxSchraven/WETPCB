@@ -8244,7 +8244,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L32.0mm_W15.0mm_P27.00mm"
 			(at 151.13 52.3748 0)
 			(hide yes)
 			(show_name no)
