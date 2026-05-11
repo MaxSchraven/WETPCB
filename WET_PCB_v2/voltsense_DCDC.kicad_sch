@@ -1034,22 +1034,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Shouldnt these be Zener diodes??\n"
-		(exclude_from_sim no)
-		(at 143.256 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ce89d6e0-ebfe-47a9-9968-2803601ab2ee")
-	)
-	(junction
-		(at 55.88 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e729cf0-291b-4d0f-bdf7-6f17ad8f3319")
-	)
 	(junction
 		(at 121.92 63.5)
 		(diameter 0)
@@ -1060,7 +1044,7 @@
 		(at 91.44 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "64c23304-7d7a-4219-a440-a16eb175eec7")
+		(uuid "876ef741-bdda-45e2-82ea-d7432884f3c5")
 	)
 	(junction
 		(at 111.76 63.5)
@@ -1074,25 +1058,31 @@
 		(color 0 0 0 0)
 		(uuid "d1e57dd1-bd7d-40bd-b794-eba31e8b2ea8")
 	)
+	(junction
+		(at 55.88 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f371558f-f97a-433a-9cb2-b1f0053f7b53")
+	)
 	(wire
 		(pts
-			(xy 91.44 63.5) (xy 91.44 80.01)
+			(xy 46.99 72.39) (xy 46.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b9252f-5751-48a7-9140-7d06a9e04f79")
+	)
+	(wire
+		(pts
+			(xy 91.44 63.5) (xy 91.44 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0a68377d-fc8f-45ed-8778-f66b06aa417d")
-	)
-	(wire
-		(pts
-			(xy 69.85 33.02) (xy 67.31 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e01aad7-2597-4109-9d4f-c3b94a3587c1")
 	)
 	(wire
 		(pts
@@ -1136,6 +1126,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 73.66) (xy 55.88 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602a0889-73c0-4029-bc4d-ecaa0e9b89a2")
+	)
+	(wire
+		(pts
 			(xy 121.92 50.8) (xy 121.92 54.61)
 		)
 		(stroke
@@ -1156,16 +1156,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 60.96) (xy 55.88 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91a4f3c1-4b56-4f53-99e1-0f6953e8164e")
-	)
-	(wire
-		(pts
 			(xy 121.92 63.5) (xy 121.92 64.77)
 		)
 		(stroke
@@ -1173,16 +1163,6 @@
 			(type default)
 		)
 		(uuid "96140cbf-e02e-4aa6-a5f1-2de7bf172934")
-	)
-	(wire
-		(pts
-			(xy 111.76 76.2) (xy 111.76 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a162418a-91f4-494f-94a3-8ca448ff704d")
 	)
 	(wire
 		(pts
@@ -1236,6 +1216,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 76.2) (xy 121.92 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e14292d4-0e28-4cb5-b2b0-aaef2f46a439")
+	)
+	(wire
+		(pts
 			(xy 111.76 63.5) (xy 121.92 63.5)
 		)
 		(stroke
@@ -1246,7 +1236,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 66.04) (xy 76.2 80.01)
+			(xy 76.2 66.04) (xy 76.2 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1256,33 +1246,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 80.01) (xy 91.44 80.01)
+			(xy 76.2 71.12) (xy 91.44 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fd1bc9aa-a0f1-47bf-b85f-f3dec281d4c7")
-	)
-	(label "VDD_OPAMP"
-		(at 67.31 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "04fd5991-db2a-4adc-9e87-99593201d49d")
-	)
-	(label "VDD_OPAMP"
-		(at 121.92 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "70e1d7ac-1af6-42b6-9e54-821f04ad826e")
 	)
 	(hierarchical_label "Vsense_ADC"
 		(shape output)
@@ -1308,14 +1278,14 @@
 	)
 	(hierarchical_label "VDD_OPAMP"
 		(shape input)
-		(at 69.85 33.02 0)
+		(at 121.92 50.8 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "cc50c4eb-8b06-43a2-ae96-6ef527db379a")
+		(uuid "c81e2176-4a5c-4c53-928e-46b4bc341f8a")
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
@@ -1401,7 +1371,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 72.39 0)
+		(at 121.92 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1411,7 +1381,7 @@
 		(dnp no)
 		(uuid "24548f53-6ca3-4a75-91f6-2fef9ec9c219")
 		(property "Reference" "#PWR056"
-			(at 121.92 78.74 0)
+			(at 121.92 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1422,7 +1392,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 76.708 0)
+			(at 121.92 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1432,7 +1402,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 72.39 0)
+			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1443,7 +1413,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 72.39 0)
+			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1454,7 +1424,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 72.39 0)
+			(at 121.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1510,7 +1480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 45.212 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -1642,7 +1612,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 77.47 0)
+		(at 55.88 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1653,7 +1623,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c7fcd89-95ae-4248-8957-f0031eb88c4a")
 		(property "Reference" "#PWR054"
-			(at 55.88 83.82 0)
+			(at 55.88 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1664,7 +1634,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 82.55 0)
+			(at 55.88 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1674,7 +1644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 77.47 0)
+			(at 55.88 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1685,7 +1655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 77.47 0)
+			(at 55.88 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1696,7 +1666,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 77.47 0)
+			(at 55.88 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1750,7 +1720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 63.5 62.738 90)
 			(hide yes)
 			(show_name no)
@@ -1800,7 +1770,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x01")
-		(at 55.88 72.39 90)
+		(at 55.88 68.58 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1810,7 +1780,7 @@
 		(dnp no)
 		(uuid "8978b7c5-080b-47f5-a087-822545d85773")
 		(property "Reference" "J20"
-			(at 58.42 69.8499 90)
+			(at 58.42 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1821,7 +1791,7 @@
 			)
 		)
 		(property "Value" "Capacitor connector"
-			(at 59.436 71.12 0)
+			(at 59.436 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1832,7 +1802,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 55.88 72.39 0)
+			(at 55.88 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1843,7 +1813,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 72.39 0)
+			(at 55.88 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1854,7 +1824,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 55.88 72.39 0)
+			(at 55.88 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1911,7 +1881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 104.14 65.278 90)
 			(hide yes)
 			(show_name no)
@@ -1969,10 +1939,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b5aceadd-92c4-4db1-abf3-1a3764c3d373")
 		(property "Reference" "U3"
-			(at 83.82 53.34 0)
+			(at 85.09 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1983,6 +1952,7 @@
 		)
 		(property "Value" "Opamp_Quad"
 			(at 83.82 55.88 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2153,7 +2123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 45.212 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -2203,7 +2173,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 77.47 0)
+		(at 111.76 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2213,7 +2183,7 @@
 		(dnp no)
 		(uuid "babcf514-ac41-4c19-b24b-13d9ca89a810")
 		(property "Reference" "#PWR055"
-			(at 111.76 83.82 0)
+			(at 111.76 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2224,7 +2194,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 81.788 0)
+			(at 111.76 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2234,7 +2204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 77.47 0)
+			(at 111.76 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2245,7 +2215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 77.47 0)
+			(at 111.76 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2256,7 +2226,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 77.47 0)
+			(at 111.76 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2361,7 +2331,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 72.39 0)
+		(at 46.99 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2372,7 +2342,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4603303-4e0d-4253-92e2-5de1937c1f09")
 		(property "Reference" "#PWR020"
-			(at 46.99 78.74 0)
+			(at 46.99 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2383,7 +2353,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 77.47 0)
+			(at 46.99 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2393,7 +2363,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 72.39 0)
+			(at 46.99 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2404,7 +2374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 72.39 0)
+			(at 46.99 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2415,7 +2385,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 72.39 0)
+			(at 46.99 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

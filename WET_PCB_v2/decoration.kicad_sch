@@ -871,7 +871,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 119.38 89.408 90)
 			(hide yes)
 			(show_name no)
@@ -1033,7 +1033,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 119.38 110.998 90)
 			(hide yes)
 			(show_name no)
@@ -1195,7 +1195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 119.38 79.248 90)
 			(hide yes)
 			(show_name no)
@@ -1275,7 +1275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
+		(property "Footprint" "LED_SMD:LED_PLCC-2_3.4x3.0mm_AK"
 			(at 111.76 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1444,7 +1444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
+		(property "Footprint" "LED_SMD:LED_PLCC-2_3.4x3.0mm_AK"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -1699,7 +1699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
+		(property "Footprint" "LED_SMD:LED_PLCC-2_3.4x3.0mm_AK"
 			(at 111.76 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1790,7 +1790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1W_3W_R8"
+		(property "Footprint" "LED_SMD:LED_PLCC-2_3.4x3.0mm_AK"
 			(at 111.76 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1881,7 +1881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 119.38 99.568 90)
 			(hide yes)
 			(show_name no)

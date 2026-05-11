@@ -1106,7 +1106,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 40.64) (xy 68.58 40.64)
+			(xy 73.66 48.26) (xy 68.58 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1116,7 +1116,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 40.64) (xy 68.58 55.88)
+			(xy 68.58 48.26) (xy 68.58 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1176,7 +1176,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 40.64) (xy 90.17 58.42)
+			(xy 90.17 48.26) (xy 90.17 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1186,7 +1186,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 40.64) (xy 90.17 40.64)
+			(xy 81.28 48.26) (xy 90.17 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1329,7 +1329,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 59.69 62.738 90)
 			(hide yes)
 			(show_name no)
@@ -1551,7 +1551,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 77.47 40.64 90)
+		(at 77.47 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1562,7 +1562,7 @@
 		(fields_autoplaced yes)
 		(uuid "3098b7ff-ed52-4aa4-931e-2e6351540905")
 		(property "Reference" "R22"
-			(at 77.47 34.29 90)
+			(at 77.47 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1572,7 +1572,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 77.47 36.83 90)
+			(at 77.47 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1581,8 +1581,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 77.47 42.418 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 77.47 50.038 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1593,7 +1593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 40.64 0)
+			(at 77.47 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1604,7 +1604,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 77.47 40.64 0)
+			(at 77.47 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1664,7 +1664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 70.358 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -1814,7 +1814,7 @@
 		(dnp no)
 		(uuid "5afffa9e-6b95-4421-ba14-200f66805631")
 		(property "Reference" "U3"
-			(at 78.74 59.6901 0)
+			(at 81.026 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1826,6 +1826,7 @@
 		)
 		(property "Value" "Opamp_Quad"
 			(at 77.724 51.562 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2080,7 +2081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 59.69 57.658 90)
 			(hide yes)
 			(show_name no)

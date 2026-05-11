@@ -1506,25 +1506,15 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "does this have to be this hugeass diode?\n"
+	(text "check cap orientation\n"
 		(exclude_from_sim no)
-		(at 102.362 40.132 0)
+		(at 130.048 68.834 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "6ff7d327-0026-4b1d-80a8-343acf2c31c4")
-	)
-	(text "add second cap"
-		(exclude_from_sim no)
-		(at 71.628 52.832 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "72a11d19-bdae-4a59-8c4d-436f614bcf81")
+		(uuid "a47ebbf2-040b-4fdb-9472-131810b748fd")
 	)
 	(text "HIn = the input high from the MCU\nLin = PWM low from the mcu\nSD = shutdown tie to +12V"
 		(exclude_from_sim no)
