@@ -2368,6 +2368,12 @@
 		(uuid "09bb572c-8344-44f2-9d25-d12163c16d2e")
 	)
 	(junction
+		(at 140.97 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cb41aa6-b426-4a46-8601-bad64cbe0ed8")
+	)
+	(junction
 		(at 106.68 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2434,6 +2440,12 @@
 		(uuid "560d3e2e-dc05-470e-ba2e-6eb84a60e26b")
 	)
 	(junction
+		(at 153.67 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "570c2e71-fb46-4bda-b8d2-4b6cfcb1f369")
+	)
+	(junction
 		(at 64.77 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2462,6 +2474,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77c1a40c-b2b6-46f1-9203-f842ce0d21d5")
+	)
+	(junction
+		(at 140.97 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79b7a39d-fdf0-4521-9134-d368d5f4ea3d")
 	)
 	(junction
 		(at 229.87 62.23)
@@ -2566,6 +2584,12 @@
 		(uuid "de001ae5-d870-4cc7-a040-4d51bc1c7579")
 	)
 	(junction
+		(at 153.67 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df82071d-15f3-4e65-85dd-e2ce1ac75897")
+	)
+	(junction
 		(at 196.85 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2660,6 +2684,16 @@
 			(type default)
 		)
 		(uuid "1a2133dd-e830-4dcc-95a3-65bd4eaa35ff")
+	)
+	(wire
+		(pts
+			(xy 140.97 83.82) (xy 143.51 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a3ef698-eaa7-45a1-bbdf-baa204c2382d")
 	)
 	(wire
 		(pts
@@ -2773,6 +2807,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 76.2) (xy 140.97 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b1d7f0-5e60-4d8c-acf9-9f1cdd5372ab")
+	)
+	(wire
+		(pts
 			(xy 52.07 64.77) (xy 55.88 64.77)
 		)
 		(stroke
@@ -2813,7 +2857,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 67.31) (xy 140.97 87.63)
+			(xy 140.97 76.2) (xy 143.51 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307539cf-4132-41fa-91db-fa9e6d4c57c3")
+	)
+	(wire
+		(pts
+			(xy 140.97 67.31) (xy 140.97 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2840,6 +2894,16 @@
 			(type default)
 		)
 		(uuid "323095ca-8e88-43dd-bb6f-2eeb403c517d")
+	)
+	(wire
+		(pts
+			(xy 140.97 83.82) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340022dd-efb4-4e8f-9ac6-fa32906c01f8")
 	)
 	(wire
 		(pts
@@ -3153,7 +3217,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 67.31) (xy 153.67 87.63)
+			(xy 153.67 67.31) (xy 153.67 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3190,6 +3254,16 @@
 			(type default)
 		)
 		(uuid "7c3a0261-ae97-4b27-bd6c-4b61ca2fc5d2")
+	)
+	(wire
+		(pts
+			(xy 153.67 76.2) (xy 153.67 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cfcac57-a3f0-4569-8403-ab55aa6cf1d6")
 	)
 	(wire
 		(pts
@@ -3240,6 +3314,26 @@
 			(type default)
 		)
 		(uuid "8a06dfbc-d52e-4b45-8cbf-6bfb15c9a157")
+	)
+	(wire
+		(pts
+			(xy 151.13 83.82) (xy 153.67 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7f2a77-665a-4043-8b1a-ba630cae32fd")
+	)
+	(wire
+		(pts
+			(xy 151.13 76.2) (xy 153.67 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b08cb86-60b4-4feb-919f-f43408d83c69")
 	)
 	(wire
 		(pts
@@ -3580,6 +3674,16 @@
 			(type default)
 		)
 		(uuid "cc50aa5c-ba2a-4933-a761-9f07ec3c3bf4")
+	)
+	(wire
+		(pts
+			(xy 153.67 83.82) (xy 153.67 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf9d9cf-6db4-4493-b935-6d4ab870c649")
 	)
 	(wire
 		(pts
@@ -6573,6 +6677,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 147.32 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6726ab5e-3f27-4838-90e9-85401c71204e")
+		(property "Reference" "C17"
+			(at 147.32 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 147.32 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_THT:L_Axial_L23.4mm_D12.7mm_P32.00mm_Horizontal_Vishay_IHA-203"
+			(at 151.13 75.2348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "526c8c17-25c3-486c-8a8a-cc230bc5d9af")
+		)
+		(pin "1"
+			(uuid "cac391c9-dc82-4fbf-afea-bfaef50c6160")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "C322C104K5R5TA:C322C104K5R5TA")
 		(at 252.73 29.21 0)
 		(unit 1)
@@ -7294,6 +7478,86 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 147.32 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6b31c83-897b-4590-8150-4ef2481c85a6")
+		(property "Reference" "C20"
+			(at 147.32 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 147.32 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L24.0mm_W12.8mm_P22.50mm_MKT"
+			(at 151.13 82.8548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "14d4d19c-a819-41d1-af76-d6a3b38f0b33")
+		)
+		(pin "1"
+			(uuid "ac9ae321-2e53-45ae-8002-57ece1fba1f1")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
+					(reference "C20")
 					(unit 1)
 				)
 			)
