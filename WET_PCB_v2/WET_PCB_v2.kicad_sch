@@ -4206,6 +4206,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 110.49) (xy 176.53 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5573f4bb-960a-45e9-97fe-00e547ac664f")
+	)
+	(wire
+		(pts
 			(xy 246.38 115.57) (xy 243.84 115.57)
 		)
 		(stroke
@@ -4383,16 +4393,6 @@
 			(type default)
 		)
 		(uuid "7dcf07dc-c862-40df-afab-f3fabd29b403")
-	)
-	(wire
-		(pts
-			(xy 172.72 99.06) (xy 172.72 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dd5866f-d2bc-47fa-8d88-5811e3346309")
 	)
 	(wire
 		(pts
@@ -5024,6 +5024,16 @@
 		)
 		(uuid "2b1ecb71-72f1-4777-a341-b5933783a562")
 	)
+	(label "ADC1_IN5"
+		(at 176.53 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "405b34f2-ccaa-4731-88dd-7e329c7968b2")
+	)
 	(label "TIM3_CH1"
 		(at 213.36 88.9 270)
 		(effects
@@ -5033,6 +5043,16 @@
 			(justify right bottom)
 		)
 		(uuid "54881eba-87cb-4eb3-8d43-8c0c9f1ac22b")
+	)
+	(label "ADC1_IN4"
+		(at 168.91 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b8f5f68-46c0-4259-9be4-06abbad7dc19")
 	)
 	(label "TIM3_CH2"
 		(at 224.79 88.9 270)
@@ -5115,16 +5135,6 @@
 		(uuid "91e3e8bc-4395-4aa5-966c-6f509c7b9999")
 	)
 	(label "ADC1_IN5"
-		(at 175.26 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0cb1397-fac0-444b-95f5-30e95b8f9aaf")
-	)
-	(label "ADC1_IN5"
 		(at 306.07 142.24 180)
 		(effects
 			(font
@@ -5154,7 +5164,17 @@
 		)
 		(uuid "bc630223-0361-424c-b19f-970d1597fd09")
 	)
-	(label "ADC1_IN4"
+	(label "ADC1_IN0"
+		(at 175.26 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdb20c61-f573-46fa-8f61-1980d49bfe6f")
+	)
+	(label "ADC1_IN1"
 		(at 246.38 115.57 0)
 		(effects
 			(font
@@ -5193,16 +5213,6 @@
 			(justify left bottom)
 		)
 		(uuid "cfcf18cc-130d-4696-94fa-0fe9f26fabb8")
-	)
-	(label "ADC1_IN1"
-		(at 168.91 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d1e0e3f2-03b6-4f28-88a3-dba3c1d53b4a")
 	)
 	(label "TIM1_CH4"
 		(at 31.75 106.68 0)
@@ -10490,9 +10500,7 @@
 	)
 	(group ""
 		(uuid "f0990e04-b7fd-4069-abc6-df6db8d346cf")
-		(members "a17383a4-d27f-4c25-9e0c-b0df1856b8d8" "b0cb1397-fac0-444b-95f5-30e95b8f9aaf"
-			"e547f70c-7bec-4117-9e0a-e594b69335eb"
-		)
+		(members "a17383a4-d27f-4c25-9e0c-b0df1856b8d8" "e547f70c-7bec-4117-9e0a-e594b69335eb")
 	)
 	(sheet
 		(at 144.78 55.88)
