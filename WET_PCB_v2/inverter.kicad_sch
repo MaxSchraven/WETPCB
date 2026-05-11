@@ -433,183 +433,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:1N4004"
 			(pin_numbers
 				(hide yes)
@@ -2224,15 +2047,25 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "different cap?\n"
+	(text "add second cap"
 		(exclude_from_sim no)
-		(at 147.574 72.136 0)
+		(at 36.322 44.958 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "a6503e1a-ffa5-493a-872f-e42dd41b4fdc")
+		(uuid "19745e68-26a5-4336-ba2a-c43e91e42517")
+	)
+	(text "add second cap"
+		(exclude_from_sim no)
+		(at 261.366 47.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6a4832d3-40cc-4171-b610-5072b76d41bf")
 	)
 	(junction
 		(at 97.79 35.56)
@@ -2289,6 +2122,12 @@
 		(uuid "24492e83-b2ee-44dc-8872-80955637420d")
 	)
 	(junction
+		(at 153.67 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28a1a4cd-ce26-48c4-ab6b-0f521fb1f9fa")
+	)
+	(junction
 		(at 147.32 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2299,6 +2138,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36004ff7-262c-48c8-8a9c-dcb0e581b32a")
+	)
+	(junction
+		(at 140.97 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "560d3e2e-dc05-470e-ba2e-6eb84a60e26b")
 	)
 	(junction
 		(at 64.77 49.53)
@@ -2317,6 +2162,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68464ba4-f22b-4c65-b11b-59681660c248")
+	)
+	(junction
+		(at 153.67 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "706e70f1-06e4-44bd-bd03-b522c8935f8e")
 	)
 	(junction
 		(at 153.67 53.34)
@@ -2391,12 +2242,6 @@
 		(uuid "a6979181-dc8e-4f18-9f9c-518ae2c0030d")
 	)
 	(junction
-		(at 153.67 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b300757b-7fe8-4faa-9bf1-22729090edc5")
-	)
-	(junction
 		(at 217.17 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2415,10 +2260,10 @@
 		(uuid "bd2506ff-6a1d-431d-b7a2-1939097028f8")
 	)
 	(junction
-		(at 140.97 63.5)
+		(at 140.97 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d28bd6b1-e526-4fc6-b2bc-b783927a2532")
+		(uuid "d1236752-db92-4f9a-a245-d3fa5e437f05")
 	)
 	(junction
 		(at 44.45 74.93)
@@ -2483,16 +2328,6 @@
 			(type default)
 		)
 		(uuid "0428884b-78df-4942-b007-4f80f3847ddb")
-	)
-	(wire
-		(pts
-			(xy 153.67 63.5) (xy 153.67 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06657ce3-4557-4992-bae2-c84608cacb09")
 	)
 	(wire
 		(pts
@@ -2576,7 +2411,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 53.34) (xy 153.67 63.5)
+			(xy 153.67 53.34) (xy 153.67 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2596,7 +2431,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 63.5) (xy 143.51 63.5)
+			(xy 140.97 66.04) (xy 143.51 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2696,6 +2531,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 67.31) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308794a9-d29c-4ac2-835a-23c6eff9f45d")
+	)
+	(wire
+		(pts
 			(xy 217.17 64.77) (xy 215.9 64.77)
 		)
 		(stroke
@@ -2713,6 +2558,16 @@
 			(type default)
 		)
 		(uuid "323095ca-8e88-43dd-bb6f-2eeb403c517d")
+	)
+	(wire
+		(pts
+			(xy 153.67 66.04) (xy 153.67 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38aa3e9e-25af-4e0c-9171-7fd4f982b7e9")
 	)
 	(wire
 		(pts
@@ -2773,16 +2628,6 @@
 			(type default)
 		)
 		(uuid "450d7424-d280-41c6-8027-16b20b58d316")
-	)
-	(wire
-		(pts
-			(xy 140.97 53.34) (xy 140.97 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "458654cf-e62c-4ee9-9a32-d96a4597d85d")
 	)
 	(wire
 		(pts
@@ -2986,6 +2831,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 67.31) (xy 153.67 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7571559c-0d47-4f13-90de-a326722a2dd9")
+	)
+	(wire
+		(pts
 			(xy 196.85 64.77) (xy 187.96 64.77)
 		)
 		(stroke
@@ -3166,7 +3021,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 63.5) (xy 153.67 63.5)
+			(xy 151.13 66.04) (xy 153.67 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3286,6 +3141,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 66.04) (xy 140.97 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b22d15-a674-41ea-845d-29bcd8464954")
+	)
+	(wire
+		(pts
 			(xy 58.42 39.37) (xy 77.47 39.37)
 		)
 		(stroke
@@ -3376,13 +3241,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 63.5) (xy 140.97 87.63)
+			(xy 140.97 53.34) (xy 140.97 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cba17289-d1f9-4988-b285-4bcfc6790f9a")
+		(uuid "cc50aa5c-ba2a-4933-a761-9f07ec3c3bf4")
 	)
 	(wire
 		(pts
@@ -6194,8 +6059,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 147.32 63.5 90)
+		(lib_id "B32529C1104K000:B32529C1104K000")
+		(at 140.97 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6204,9 +6069,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "95e5a3ba-8169-4734-a781-5985affc9520")
+		(uuid "76c65726-3ac5-44e9-af20-4a441ce3c507")
 		(property "Reference" "C8"
-			(at 146.431 55.88 90)
+			(at 147.32 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6215,8 +6080,8 @@
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 146.431 58.42 90)
+		(property "Value" "B32529C1104K000"
+			(at 147.32 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6225,8 +6090,32 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm"
-			(at 151.13 62.5348 0)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
+			(at 149.86 163.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkt/data_sheet/20/20/db/fc_2009/b32520_529.pdf"
+			(at 149.86 263.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "EPCOS - B32529C1104K000 - General Purpose Film Capacitor, Metallized PET Stacked, Radial Box - 2 Pin, 0.1 F, +/- 10%, 63 V//"
+			(at 140.97 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6236,8 +6125,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 147.32 63.5 0)
+		(property "Height" "6.5"
+			(at 149.86 463.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6245,10 +6134,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 147.32 63.5 0)
+		(property "Farnell Part Number" ""
+			(at 149.86 563.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6256,13 +6146,50 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(pin "2"
-			(uuid "9159b5ee-c4f3-495d-a368-542f15e12064")
+		(property "Farnell Price/Stock" ""
+			(at 149.86 663.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 149.86 763.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B32529C1104K000"
+			(at 149.86 863.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
 		(pin "1"
-			(uuid "b9d78a8b-e98d-4474-a6f7-9df0e18eccec")
+			(uuid "e5ce7489-2276-4537-90ec-d70d024a7418")
+		)
+		(pin "2"
+			(uuid "8cf538af-e164-4ebf-a5cb-28428eee3b7a")
 		)
 		(instances
 			(project "WET_PCB_v2"

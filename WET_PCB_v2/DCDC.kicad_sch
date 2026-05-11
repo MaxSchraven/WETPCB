@@ -609,6 +609,16 @@
 		)
 		(uuid "5d41edfc-f2ae-4245-824c-834705654245")
 	)
+	(text "curr sense points"
+		(exclude_from_sim no)
+		(at 82.296 42.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8946d7ca-88f7-4130-86b3-d79987eeb5f7")
+	)
 	(text "the cap footprints are random im not sure which ones to use and if we should add more caps"
 		(exclude_from_sim no)
 		(at 90.17 92.202 0)
@@ -628,12 +638,6 @@
 			)
 		)
 		(uuid "df5628eb-b7f1-4a5e-a31e-aa7f5d9092aa")
-	)
-	(junction
-		(at 72.39 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2088f138-1040-44a0-8ad3-6743ac40311e")
 	)
 	(junction
 		(at 54.61 43.18)
@@ -670,12 +674,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd5f4b5a-9b2a-4d42-8f33-6ed6b69ab8fe")
-	)
-	(junction
-		(at 91.44 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6a2e1b2-450f-46e4-b008-d263d532fd96")
 	)
 	(wire
 		(pts
@@ -796,16 +794,6 @@
 			(type default)
 		)
 		(uuid "615a34df-5a1c-47fa-b747-f1cfc9091020")
-	)
-	(wire
-		(pts
-			(xy 72.39 43.18) (xy 91.44 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67f11969-1e80-47d3-8e23-d44d5a3af275")
 	)
 	(wire
 		(pts
@@ -1323,7 +1311,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 119.38 45.72 90)
+		(at 119.38 45.72 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1353,7 +1342,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 116.84 40.64 0)
+			(at 121.92 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

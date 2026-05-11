@@ -163,6 +163,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Zener"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Opamp_Quad"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -752,193 +918,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4004"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4004"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1N4004_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4004_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1055,16 +1034,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Shouldnt these be Zener diodes??\n"
-		(exclude_from_sim no)
-		(at 136.144 63.246 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3abb07cb-db8e-496d-8d42-29a25dea70be")
-	)
 	(junction
 		(at 93.98 58.42)
 		(diameter 0)
@@ -1078,12 +1047,6 @@
 		(uuid "4d199823-4463-4553-b7f9-16a9ff62a5b9")
 	)
 	(junction
-		(at 69.85 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a3ef3bd-4d33-4bc1-8c90-52df99fd1426")
-	)
-	(junction
 		(at 104.14 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1094,6 +1057,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b32bd6ff-f241-4ed2-800d-4408d6c36b40")
+	)
+	(junction
+		(at 68.58 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e990f435-3101-405b-9728-2ec972be2cbb")
 	)
 	(wire
 		(pts
@@ -1137,7 +1106,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 40.64) (xy 69.85 40.64)
+			(xy 73.66 40.64) (xy 68.58 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1147,7 +1116,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 40.64) (xy 69.85 55.88)
+			(xy 68.58 40.64) (xy 68.58 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1227,17 +1196,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 55.88) (xy 72.39 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94df8eef-d360-4e87-8ccb-7c27101b8abe")
-	)
-	(wire
-		(pts
-			(xy 63.5 55.88) (xy 69.85 55.88)
+			(xy 63.5 55.88) (xy 68.58 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1254,6 +1213,16 @@
 			(type default)
 		)
 		(uuid "c18af0d7-4a0e-44eb-8c49-55c01848d9dd")
+	)
+	(wire
+		(pts
+			(xy 68.58 55.88) (xy 72.39 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41c293f-11fb-40f8-bd7c-c211256ac91c")
 	)
 	(wire
 		(pts
@@ -1489,6 +1458,92 @@
 				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/6ecc05b2-84d4-404f-84e6-8cc19742ad68"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 104.14 53.34 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21568857-0fa3-4490-b25b-43af778e14be")
+		(property "Reference" "D25"
+			(at 106.68 52.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 106.68 54.6099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-15_P2.54mm_Vertical_CathodeUp"
+			(at 104.14 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 104.14 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9ac971a5-3377-4995-8d58-c6abb6d39fda")
+		)
+		(pin "1"
+			(uuid "2dd849e5-4940-4718-803b-333e87e98295")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/12f67741-eb23-4832-9e03-479bbedcb04e"
+					(reference "D25")
+					(unit 1)
+				)
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/6ecc05b2-84d4-404f-84e6-8cc19742ad68"
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -2078,115 +2133,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4004")
-		(at 104.14 53.34 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7449fd6-6785-49f2-b38d-38ed3dbcc673")
-		(property "Reference" "D15"
-			(at 106.68 52.0699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4004"
-			(at 106.68 54.6099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-15_P2.54mm_Vertical_CathodeUp"
-			(at 108.585 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 104.14 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 104.14 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 104.14 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 104.14 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "360619ae-c557-4f2e-b4ad-cbaabe4f77a9")
-		)
-		(pin "2"
-			(uuid "23699bf8-9a9f-4c2e-8690-47d7d2a4a7bf")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/12f67741-eb23-4832-9e03-479bbedcb04e"
-					(reference "D15")
-					(unit 1)
-				)
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/6ecc05b2-84d4-404f-84e6-8cc19742ad68"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 104.14 71.12 0)
 		(unit 1)
@@ -2268,9 +2214,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4004")
-		(at 104.14 64.77 90)
-		(mirror x)
+		(lib_id "Device:D_Zener")
+		(at 104.14 64.77 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2278,8 +2223,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e8687bb6-43bc-41a5-866e-7cb24ea16ef1")
-		(property "Reference" "D16"
+		(fields_autoplaced yes)
+		(uuid "fb540368-a8e3-4406-ae4e-6c015403b036")
+		(property "Reference" "D27"
 			(at 106.68 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2287,10 +2233,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "1N4004"
+		(property "Value" "D_Zener"
 			(at 106.68 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2298,21 +2244,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-15_P2.54mm_Vertical_CathodeUp"
-			(at 108.585 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
 			(at 104.14 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2323,7 +2258,7 @@
 				)
 			)
 		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+		(property "Datasheet" ""
 			(at 104.14 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2334,7 +2269,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+		(property "Description" "Zener diode"
 			(at 104.14 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2344,32 +2279,21 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 104.14 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bc3d4557-3129-4652-ae06-2c5b08f23cf8")
 		)
 		(pin "2"
-			(uuid "75fda61a-9996-40b0-8794-3e37e83f4d23")
+			(uuid "98671d31-d51b-4d62-a377-69d78da2017a")
+		)
+		(pin "1"
+			(uuid "71f9449e-96b1-4d5d-a8b7-8bcdbddc80b5")
 		)
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/12f67741-eb23-4832-9e03-479bbedcb04e"
-					(reference "D16")
+					(reference "D27")
 					(unit 1)
 				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/6ecc05b2-84d4-404f-84e6-8cc19742ad68"
-					(reference "D18")
+					(reference "D28")
 					(unit 1)
 				)
 			)

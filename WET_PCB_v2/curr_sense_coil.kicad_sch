@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "42c5842c-a4a6-4a6a-a3cd-e3b87b026d4a")
+	(paper "A4")
+	(lib_symbols)
+	(text "design circuit for current sensor"
+		(exclude_from_sim no)
+		(at 60.96 40.386 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6588ffe-c286-43da-852e-6a5606fabd2f")
+	)
+)

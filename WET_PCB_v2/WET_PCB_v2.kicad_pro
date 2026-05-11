@@ -686,7 +686,7 @@
         "uuid": "13451c35-1666-47d9-9525-8d8125ba1cf3"
       }
     ],
-    "used_designators": "C22",
+    "used_designators": "C8,C22,#PWR57-58,D25-32",
     "variants": []
   },
   "sheets": [
@@ -729,6 +729,10 @@
     [
       "79e5e86e-dc26-4d0b-a087-2027a5880c08",
       "decoration"
+    ],
+    [
+      "cd9866f5-282f-4ec9-8a79-0dbe530bc090",
+      "curr_sense_coil"
     ]
   ],
   "text_variables": {},

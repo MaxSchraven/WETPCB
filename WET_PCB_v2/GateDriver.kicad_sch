@@ -1516,6 +1516,16 @@
 		)
 		(uuid "6ff7d327-0026-4b1d-80a8-343acf2c31c4")
 	)
+	(text "add second cap"
+		(exclude_from_sim no)
+		(at 71.628 52.832 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "72a11d19-bdae-4a59-8c4d-436f614bcf81")
+	)
 	(text "HIn = the input high from the MCU\nLin = PWM low from the mcu\nSD = shutdown tie to +12V"
 		(exclude_from_sim no)
 		(at 37.846 79.248 0)

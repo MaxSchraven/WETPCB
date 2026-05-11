@@ -3344,6 +3344,16 @@
 		)
 		(uuid "263cd71a-873c-46e4-944b-a06ab95003fd")
 	)
+	(text "add 0ohm"
+		(exclude_from_sim no)
+		(at 122.174 35.052 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3e26406c-640b-4de9-a2ae-9bf28a12834b")
+	)
 	(text "12V lower if all ICs can go lower to recuse the LDO's work"
 		(exclude_from_sim no)
 		(at 280.162 90.932 0)
@@ -3394,6 +3404,16 @@
 		)
 		(uuid "87f129f2-5ebc-409f-aab3-7ed425f49429")
 	)
+	(text "look for other UV LEDs"
+		(exclude_from_sim no)
+		(at 52.324 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a476dda3-9dfa-47bd-a573-c157659f823c")
+	)
 	(text "`where do we need this voltage"
 		(exclude_from_sim no)
 		(at 222.504 72.39 0)
@@ -3413,6 +3433,26 @@
 			)
 		)
 		(uuid "e897d30a-264e-4506-a992-2f3b9f0301e7")
+	)
+	(text "add footprint to add wires trough current measurement"
+		(exclude_from_sim no)
+		(at 121.158 13.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb7bdfae-6974-49c7-a13a-372c486d54ae")
+	)
+	(text "add resitor footprint\n"
+		(exclude_from_sim no)
+		(at 236.474 57.912 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f91dc9af-cf5d-406e-a995-0bee43d3aaab")
 	)
 	(junction
 		(at 388.62 78.74)
@@ -3788,6 +3828,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 35.56) (xy 201.93 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f503fd-1473-49aa-9a7e-f39aeb42f50a")
+	)
+	(wire
+		(pts
 			(xy 394.97 68.58) (xy 403.86 68.58)
 		)
 		(stroke
@@ -4115,6 +4165,16 @@
 			(type default)
 		)
 		(uuid "7c83e62f-081e-4d48-a9ab-65a14f3d6951")
+	)
+	(wire
+		(pts
+			(xy 134.62 35.56) (xy 140.97 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cec611a-a58d-410d-bbe1-f85801a1ed04")
 	)
 	(wire
 		(pts
@@ -7108,7 +7168,7 @@
 				)
 			)
 		)
-		(property "Value" "XT60"
+		(property "Value" "Pluggable terminal block"
 			(at 18.415 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7118,7 +7178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_2-G-7,62_1x02_P7.62mm_Horizontal"
 			(at 17.78 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -7749,6 +7809,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 134.62 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ae682250-ed23-4905-9061-0aaf18b6f04e")
+		(property "Reference" "#PWR057"
+			(at 134.62 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 131.064 34.544 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 134.62 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90288286-e540-4328-9649-791276d9e1f7")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 278.13 88.9 0)
 		(unit 1)
@@ -8301,6 +8438,83 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 195.58 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bfdb26e5-ed26-43e9-be8c-473f535e0b37")
+		(property "Reference" "#PWR058"
+			(at 195.58 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 192.024 34.544 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 195.58 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87e80ec0-7547-4245-ab77-7d89b28c3bdc")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -9988,7 +10202,7 @@
 			)
 		)
 		(pin "VDD_Driver_Inverter" input
-			(at 201.93 34.29 180)
+			(at 201.93 35.56 180)
 			(uuid "c7cb8149-99b7-4b95-a6b8-7058186bd1aa")
 			(effects
 				(font
@@ -10108,6 +10322,52 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 97.79)
+		(size 38.1 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cd9866f5-282f-4ec9-8a79-0dbe530bc090")
+		(property "Sheetname" "curr_sense_coil"
+			(at 139.7 97.0784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "curr_sense_coil.kicad_sch"
+			(at 139.7 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(page "11")
 				)
 			)
 		)
