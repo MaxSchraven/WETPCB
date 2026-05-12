@@ -3600,7 +3600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_A-405_P2.54mm_Vertical_CathodeUp"
+		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
 			(at 135.89 92.075 0)
 			(hide yes)
 			(show_name no)
@@ -3857,7 +3857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_A-405_P2.54mm_Vertical_CathodeUp"
+		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
 			(at 135.89 57.785 0)
 			(hide yes)
 			(show_name no)

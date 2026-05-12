@@ -5,20 +5,17 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
-      "GND",
-      "/12V_to5V/Vout_5V",
-      "+5V",
-      "+12V"
+      "GND"
     ],
     "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.5699999928474426,
       "pads": 0.2800000011920929,
-      "shapes": 1.0,
+      "shapes": 0.550000011920929,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.699999988079071
+      "zones": 0.15000000596046448
     },
     "prototype_zone_fills": false,
     "selection_filter": {
