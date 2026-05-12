@@ -520,7 +520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "797e7702-4b23-4bec-bf4d-d8a3f0efa2de")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR061"
 			(at 62.23 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -580,7 +580,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/7293ed87-9a5c-4e01-a7da-6a6e465a8771"
-					(reference "#PWR057")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -598,7 +598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8eeb84d9-7a57-454d-9fee-705b659ceff2")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR063"
 			(at 76.2 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -658,7 +658,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/7293ed87-9a5c-4e01-a7da-6a6e465a8771"
-					(reference "#PWR058")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -676,7 +676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95a21ee8-4034-4973-880a-a77c5fd016ef")
-		(property "Reference" "C24"
+		(property "Reference" "C9"
 			(at 48.26 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -740,7 +740,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/7293ed87-9a5c-4e01-a7da-6a6e465a8771"
-					(reference "C24")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -758,7 +758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad2e47fb-d12d-4382-a736-c9df77b1d8dd")
-		(property "Reference" "C25"
+		(property "Reference" "C10"
 			(at 80.01 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -822,7 +822,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/7293ed87-9a5c-4e01-a7da-6a6e465a8771"
-					(reference "C25")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -925,7 +925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f80b04b7-0eba-4ebe-862b-50538fa272a5")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR062"
 			(at 44.45 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -985,7 +985,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/7293ed87-9a5c-4e01-a7da-6a6e465a8771"
-					(reference "#PWR056")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)

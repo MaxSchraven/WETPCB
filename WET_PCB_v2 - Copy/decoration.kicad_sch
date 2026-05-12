@@ -969,7 +969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14dc2c22-1a96-4b6c-8dea-d3115dd61d4a")
-		(property "Reference" "R57"
+		(property "Reference" "R59"
 			(at 119.38 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1031,7 +1031,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "R57")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -1049,7 +1049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17ad9938-3cfc-41b0-a1ef-2db970cc3611")
-		(property "Reference" "R53"
+		(property "Reference" "R30"
 			(at 119.38 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1111,7 +1111,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "R53")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -1129,7 +1129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d357a8e-6be1-4f87-bdc9-7645064c77ac")
-		(property "Reference" "J23"
+		(property "Reference" "J28"
 			(at 140.97 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1194,7 +1194,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "J23")
+					(reference "J28")
 					(unit 1)
 				)
 			)
@@ -1212,7 +1212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29046909-95f8-4f0e-b0b4-f88402ebca64")
-		(property "Reference" "J19"
+		(property "Reference" "J12"
 			(at 140.97 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1277,7 +1277,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "J19")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -1295,7 +1295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "380e5e4a-135b-47aa-8caf-e95789601dff")
-		(property "Reference" "D25"
+		(property "Reference" "D23"
 			(at 110.1725 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1368,7 +1368,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "D25")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -1386,7 +1386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b261ccb-3524-4458-9cf8-fed08776227a")
-		(property "Reference" "R55"
+		(property "Reference" "R32"
 			(at 119.38 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1448,7 +1448,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "R55")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -1466,7 +1466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5caba445-3e5b-492e-adbb-f4b94b80961e")
-		(property "Reference" "J21"
+		(property "Reference" "J14"
 			(at 140.97 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1531,7 +1531,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "J21")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -1549,7 +1549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "630119c3-90d7-4ed3-a848-fcdb7fcb360f")
-		(property "Reference" "R52"
+		(property "Reference" "R29"
 			(at 119.38 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1611,7 +1611,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "R52")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -1629,7 +1629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "732d87a1-5c9c-4a4a-b0c2-79b3c7af7479")
-		(property "Reference" "D24"
+		(property "Reference" "D22"
 			(at 110.1725 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1702,7 +1702,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "D24")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -1720,7 +1720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87745ddf-c277-4b2e-88ea-6be22bac119a")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR05"
 			(at 105.41 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -1780,7 +1780,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "#PWR062")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -1798,7 +1798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87f13d36-0155-432e-b552-8865936cd630")
-		(property "Reference" "J26"
+		(property "Reference" "J30"
 			(at 157.48 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1863,7 +1863,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "J26")
+					(reference "J30")
 					(unit 1)
 				)
 			)
@@ -1881,7 +1881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f10234e-2fe7-433e-89fb-6f7bb1b952c8")
-		(property "Reference" "J30"
+		(property "Reference" "J34"
 			(at 158.75 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1946,7 +1946,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "J30")
+					(reference "J34")
 					(unit 1)
 				)
 			)
@@ -1964,7 +1964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91c770e8-30e5-4dd0-af6b-cf3e03d4316e")
-		(property "Reference" "J25"
+		(property "Reference" "J29"
 			(at 157.48 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2029,7 +2029,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "J25")
+					(reference "J29")
 					(unit 1)
 				)
 			)
@@ -2047,7 +2047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94e95d52-c975-4d87-8226-c522dfe302a8")
-		(property "Reference" "D21"
+		(property "Reference" "D19"
 			(at 110.1725 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2120,7 +2120,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "D21")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -2138,7 +2138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "971bb66f-dc32-4284-bb08-3c8962fc26dd")
-		(property "Reference" "R56"
+		(property "Reference" "R58"
 			(at 119.38 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2200,7 +2200,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "R56")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -2218,7 +2218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9777cafe-f63c-4b97-bb44-7e5261fb94aa")
-		(property "Reference" "J22"
+		(property "Reference" "J15"
 			(at 140.97 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2283,7 +2283,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "J22")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -2301,7 +2301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a359ce21-3cab-4a1e-a6bd-5f487eea098c")
-		(property "Reference" "J20"
+		(property "Reference" "J13"
 			(at 140.97 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2366,7 +2366,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "J20")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -2384,7 +2384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a38d17d0-37f7-42e5-8985-e07513b7cdbf")
-		(property "Reference" "D22"
+		(property "Reference" "D20"
 			(at 110.1725 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2457,7 +2457,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "D22")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -2475,7 +2475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba5c0e01-6e23-4841-a2ae-d46bf32bd501")
-		(property "Reference" "J29"
+		(property "Reference" "J33"
 			(at 157.48 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2540,7 +2540,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "J29")
+					(reference "J33")
 					(unit 1)
 				)
 			)
@@ -2558,7 +2558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c82787af-aa3b-4540-88aa-5bae5e212cc6")
-		(property "Reference" "D26"
+		(property "Reference" "D24"
 			(at 110.1725 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2631,7 +2631,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "D26")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -2649,7 +2649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8c5c674-5d09-41bb-b164-cf29cf3c3222")
-		(property "Reference" "D23"
+		(property "Reference" "D21"
 			(at 110.1725 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2722,7 +2722,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "D23")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -2740,7 +2740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd0525e6-d04e-48ea-a493-67ef1ac3182d")
-		(property "Reference" "J24"
+		(property "Reference" "J27"
 			(at 142.24 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2805,7 +2805,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "J24")
+					(reference "J27")
 					(unit 1)
 				)
 			)
@@ -2823,7 +2823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e39aa48d-09ef-424a-a75b-c4b9314c1703")
-		(property "Reference" "R54"
+		(property "Reference" "R31"
 			(at 119.38 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2885,7 +2885,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "R54")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -2903,7 +2903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f626d23f-e986-4454-988b-091715ebf83b")
-		(property "Reference" "J28"
+		(property "Reference" "J32"
 			(at 157.48 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2968,7 +2968,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "J28")
+					(reference "J32")
 					(unit 1)
 				)
 			)
@@ -2986,7 +2986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f88914a1-e61f-4115-a0a6-a438b0f744e0")
-		(property "Reference" "J27"
+		(property "Reference" "J31"
 			(at 157.48 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3051,7 +3051,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/79e5e86e-dc26-4d0b-a087-2027a5880c08"
-					(reference "J27")
+					(reference "J31")
 					(unit 1)
 				)
 			)

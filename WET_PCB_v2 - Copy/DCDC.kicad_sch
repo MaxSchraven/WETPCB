@@ -1275,7 +1275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fa919b5-17ad-48a8-958d-74ddf42b9a8b")
-		(property "Reference" "C18"
+		(property "Reference" "C12"
 			(at 179.07 53.7209 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1339,7 +1339,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318"
-					(reference "C18")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -1357,7 +1357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dd92777-5c2e-4196-810c-f68837eb6450")
-		(property "Reference" "HS6"
+		(property "Reference" "HS1"
 			(at 123.19 31.1149 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1415,7 +1415,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318"
-					(reference "HS6")
+					(reference "HS1")
 					(unit 1)
 				)
 			)
@@ -1433,7 +1433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36b1d420-d704-4219-b402-b92909032d92")
-		(property "Reference" "C19"
+		(property "Reference" "C23"
 			(at 198.12 53.7209 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1497,7 +1497,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318"
-					(reference "C19")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -1515,7 +1515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36f7a43e-0cf2-4755-86b4-22d3cd54e9df")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR04"
 			(at 40.64 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -1575,7 +1575,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318"
-					(reference "#PWR044")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1761,7 +1761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b680501-3561-450d-961f-00de19a24596")
-		(property "Reference" "C17"
+		(property "Reference" "C22"
 			(at 76.2 53.7209 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1825,7 +1825,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318"
-					(reference "C17")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -1843,7 +1843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "837a681b-24fe-442f-97b8-407b8a79a486")
-		(property "Reference" "C16"
+		(property "Reference" "C11"
 			(at 58.42 53.7209 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1907,7 +1907,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318"
-					(reference "C16")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -1925,7 +1925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec875461-b737-41de-ab28-3a72cfb1bc34")
-		(property "Reference" "HS5"
+		(property "Reference" "HS2"
 			(at 106.68 31.1149 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1983,7 +1983,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318"
-					(reference "HS5")
+					(reference "HS2")
 					(unit 1)
 				)
 			)
@@ -2036,7 +2036,7 @@
 				(justify right)
 			)
 		)
-		(pin "DCDC_Driver_Hin" input
+		(pin "Hin" input
 			(at 130.81 60.96 0)
 			(uuid "4e0f7804-922f-4493-b913-21fd13b02f21")
 			(effects
@@ -2046,7 +2046,7 @@
 				(justify right)
 			)
 		)
-		(pin "DCDC_Driver_Lin" input
+		(pin "Lin" input
 			(at 130.81 58.42 0)
 			(uuid "c33d1abd-23e8-44ec-99a9-551a85147ed0")
 			(effects
@@ -2056,7 +2056,7 @@
 				(justify right)
 			)
 		)
-		(pin "DCDC_Driver_SD" input
+		(pin "SD" input
 			(at 130.81 55.88 0)
 			(uuid "c023d659-43af-4a89-b779-9883fb505291")
 			(effects
@@ -2086,9 +2086,9 @@
 				(justify right)
 			)
 		)
-		(pin "VCC_Driver_DCDC" input
+		(pin "VCC_Driver" input
 			(at 130.81 53.34 0)
-			(uuid "2aa07154-41b3-44ac-90ab-f8f818a1d959")
+			(uuid "fc2ca620-6d27-424e-a3f7-dded0a470c4e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,9 +2096,9 @@
 				(justify right)
 			)
 		)
-		(pin "VDD_Driver_DCDC" input
+		(pin "VDD_Driver" input
 			(at 130.81 63.5 0)
-			(uuid "a90a973b-667a-4873-b384-19384bd2fe0e")
+			(uuid "3e6f5635-6a1b-43ce-871b-4667b4a7ca5d")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2191,6 +2191,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:MBR1020VL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MBR1020VL"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123F"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MBR1020VL-D.PDF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "20V, 1A, 340 mV, Schottky Diode Rectifier, SOD-123F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "forward voltage diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123F*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MBR1020VL_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MBR1020VL_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "WET:WET_Token_10"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3465,7 +3630,7 @@
 		(at 157.48 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "06a8e90c-f7d7-4e78-8099-e4443de64754")
+		(uuid "064404f0-a3c9-4fb5-978f-673038563c2a")
 	)
 	(junction
 		(at 387.35 157.48)
@@ -3478,12 +3643,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a38fca6-1234-4fa6-bf91-327dd9eefbee")
-	)
-	(junction
-		(at 367.03 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12096bbe-95e8-4ebe-8b0b-c29c87fab2d4")
 	)
 	(junction
 		(at 294.64 139.7)
@@ -3526,6 +3685,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a973e7d-421c-4f69-9260-b912083e2e19")
+	)
+	(junction
+		(at 149.86 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fe736ec-4671-46fe-be0d-159c59911952")
 	)
 	(junction
 		(at 194.31 58.42)
@@ -3677,18 +3842,6 @@
 		(color 0 0 0 0)
 		(uuid "e4249ecc-0a37-4314-ba4c-de732bcf0687")
 	)
-	(junction
-		(at 370.84 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f07a5c56-e5bf-40fe-a61f-26b9f24e6d24")
-	)
-	(junction
-		(at 149.86 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa13b6d8-4419-471f-b4a0-5bcd51b5d117")
-	)
 	(wire
 		(pts
 			(xy 387.35 149.86) (xy 393.7 149.86)
@@ -3751,23 +3904,13 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 166.37) (xy 384.81 170.18)
+			(xy 134.62 144.78) (xy 134.62 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1298045c-5563-443f-98d8-a76daa369595")
-	)
-	(wire
-		(pts
-			(xy 382.27 163.83) (xy 382.27 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13379905-6c08-4012-a49e-b80c5f35628c")
+		(uuid "13daf15c-eb49-4856-b88e-04c6ad32ba90")
 	)
 	(wire
 		(pts
@@ -3808,16 +3951,6 @@
 			(type default)
 		)
 		(uuid "2134c1a5-3c5a-4e2e-a700-cd085208bab8")
-	)
-	(wire
-		(pts
-			(xy 132.08 146.05) (xy 134.62 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21f1d34d-8b81-4032-9fa4-30bf3cee62a5")
 	)
 	(wire
 		(pts
@@ -4021,16 +4154,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 151.13) (xy 134.62 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b702d59-2c15-44f7-8ec8-ef3c2fb31355")
-	)
-	(wire
-		(pts
 			(xy 387.35 154.94) (xy 393.7 154.94)
 		)
 		(stroke
@@ -4131,16 +4254,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 166.37) (xy 373.38 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bb1f184-cb45-4e84-8c33-731484c0430d")
-	)
-	(wire
-		(pts
 			(xy 138.43 62.23) (xy 144.78 62.23)
 		)
 		(stroke
@@ -4148,6 +4261,16 @@
 			(type default)
 		)
 		(uuid "5d7781a7-47fa-44d7-9766-1fa98df426a0")
+	)
+	(wire
+		(pts
+			(xy 175.26 81.28) (xy 175.26 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e24281b-ce11-4cb8-81e9-88ee34b342ab")
 	)
 	(wire
 		(pts
@@ -4231,6 +4354,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 149.86) (xy 134.62 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "725d7048-726d-4b5f-91a9-459f852ad279")
+	)
+	(wire
+		(pts
 			(xy 373.38 152.4) (xy 387.35 152.4)
 		)
 		(stroke
@@ -4238,6 +4371,16 @@
 			(type default)
 		)
 		(uuid "7473df83-b1a7-481a-bbaf-6586722fdc5a")
+	)
+	(wire
+		(pts
+			(xy 45.72 22.86) (xy 39.37 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b443a8-292b-484e-a23c-c9c339cb722b")
 	)
 	(wire
 		(pts
@@ -4298,16 +4441,6 @@
 			(type default)
 		)
 		(uuid "816d0446-91fe-4695-87cc-f41390ad6e79")
-	)
-	(wire
-		(pts
-			(xy 384.81 163.83) (xy 382.27 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8218009d-ee1a-4a63-b768-de1c84611caf")
 	)
 	(wire
 		(pts
@@ -4461,16 +4594,6 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 166.37) (xy 367.03 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "989b0892-b030-4b10-9622-bbdb2c143aef")
-	)
-	(wire
-		(pts
 			(xy 287.02 152.4) (xy 294.64 152.4)
 		)
 		(stroke
@@ -4521,6 +4644,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 149.86) (xy 134.62 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a303745e-e74b-4f4f-bdda-da3520bf7fa1")
+	)
+	(wire
+		(pts
 			(xy 29.21 38.1) (xy 39.37 38.1)
 		)
 		(stroke
@@ -4528,6 +4661,16 @@
 			(type default)
 		)
 		(uuid "a6e6c1b8-6e55-411a-a68d-362da7fbac13")
+	)
+	(wire
+		(pts
+			(xy 175.26 90.17) (xy 175.26 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c3a75d-15c7-4923-9faf-d0eeb2d3ac9c")
 	)
 	(wire
 		(pts
@@ -4578,16 +4721,6 @@
 			(type default)
 		)
 		(uuid "af739fbb-166c-41fc-94d8-916c647d69d8")
-	)
-	(wire
-		(pts
-			(xy 370.84 163.83) (xy 370.84 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b03e92fb-9048-4fab-893d-91e2154a3505")
 	)
 	(wire
 		(pts
@@ -4661,16 +4794,6 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 166.37) (xy 373.38 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bba59126-e50f-44e8-a1fd-6f503a86d00d")
-	)
-	(wire
-		(pts
 			(xy 29.21 119.38) (xy 29.21 116.84)
 		)
 		(stroke
@@ -4691,16 +4814,6 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 170.18) (xy 384.81 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4c37a9e-444c-4d39-947b-34f2a9402a61")
-	)
-	(wire
-		(pts
 			(xy 163.83 53.34) (xy 163.83 55.88)
 		)
 		(stroke
@@ -4718,6 +4831,16 @@
 			(type default)
 		)
 		(uuid "c990c35e-9d45-425b-80d8-5064753efff3")
+	)
+	(wire
+		(pts
+			(xy 132.08 144.78) (xy 134.62 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9ad2308-d729-4bb1-9c42-01fa7eb3068b")
 	)
 	(wire
 		(pts
@@ -4881,7 +5004,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 22.86) (xy 45.72 22.86)
+			(xy 22.86 22.86) (xy 31.75 22.86)
 		)
 		(stroke
 			(width 0)
@@ -4898,16 +5021,6 @@
 			(type default)
 		)
 		(uuid "f9a17c02-69ed-4169-b44a-a385cc1b56ba")
-	)
-	(wire
-		(pts
-			(xy 373.38 163.83) (xy 370.84 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa8bf697-e4c0-4646-b297-0c5cb1ce2a7d")
 	)
 	(wire
 		(pts
@@ -4980,7 +5093,7 @@
 		(uuid "2b1ecb71-72f1-4777-a341-b5933783a562")
 	)
 	(label "ADC1_IN5"
-		(at 176.53 129.54 0)
+		(at 184.15 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4990,7 +5103,7 @@
 		(uuid "3c6f278c-deb1-4e19-ba7f-fdc4be4b257c")
 	)
 	(label "ADC1_IN16"
-		(at 175.26 167.64 0)
+		(at 182.88 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5009,6 +5122,16 @@
 		)
 		(uuid "54881eba-87cb-4eb3-8d43-8c0c9f1ac22b")
 	)
+	(label "ADC1_IN4"
+		(at 168.91 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b8f5f68-46c0-4259-9be4-06abbad7dc19")
+	)
 	(label "TIM3_CH2"
 		(at 224.79 97.79 270)
 		(effects
@@ -5020,7 +5143,7 @@
 		(uuid "5e970f8b-648f-40a0-9d31-7b33d1d87183")
 	)
 	(label "ADC1_IN0"
-		(at 175.26 147.32 0)
+		(at 182.88 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5079,6 +5202,16 @@
 		)
 		(uuid "7e90a9db-1c86-40a9-ab01-dcec454fede0")
 	)
+	(label "ADC1_IN0"
+		(at 143.51 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "877c9030-d17f-4288-bb5a-46f6bd9135a4")
+	)
 	(label "TIM3_CH1"
 		(at 306.07 154.94 180)
 		(effects
@@ -5090,7 +5223,7 @@
 		(uuid "91e3e8bc-4395-4aa5-966c-6f509c7b9999")
 	)
 	(label "ADC1_IN1"
-		(at 246.38 134.62 0)
+		(at 254 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5108,16 +5241,6 @@
 			(justify right bottom)
 		)
 		(uuid "b6c213e0-4e72-40cd-a24b-ce9dcb793eb6")
-	)
-	(label "ADC1_IN4"
-		(at 168.91 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b9a24785-884d-42b0-a980-930e0348296e")
 	)
 	(label "USART2_RX"
 		(at 375.92 139.7 0)
@@ -5179,6 +5302,16 @@
 		)
 		(uuid "cfcf18cc-130d-4696-94fa-0fe9f26fabb8")
 	)
+	(label "TIM1_CH4"
+		(at 31.75 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3faffa5-4993-45c9-9092-3c2bdbbeb6ad")
+	)
 	(label "SYS_NRST"
 		(at 375.92 157.48 0)
 		(effects
@@ -5210,85 +5343,6 @@
 		(uuid "f0e628b1-5f09-462e-984d-1b03daef1f73")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 389.89 166.37 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0795e1df-0132-47cf-9322-29f9be88a89a")
-		(property "Reference" "J35"
-			(at 388.366 163.068 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Programming"
-			(at 387.604 159.766 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal"
-			(at 389.89 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 389.89 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 389.89 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "06e473f1-6d6b-4cdf-9c01-3d8aeab67cb1")
-		)
-		(pin "2"
-			(uuid "7d9eb31f-8ff5-4bff-b858-26527ed3284c")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "J35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 213.36 90.17 0)
 		(unit 1)
@@ -5300,7 +5354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08270d84-109c-4180-bc9d-64eb9e173a7e")
-		(property "Reference" "R15"
+		(property "Reference" "R50"
 			(at 215.9 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5364,7 +5418,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R15")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -5381,7 +5435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0af94e62-1faa-4b28-98c9-8e79542050de")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR049"
 			(at 132.08 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5441,7 +5495,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR015")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -5459,7 +5513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e99927c-5326-4ebe-b643-7a7e4396ae96")
-		(property "Reference" "R20"
+		(property "Reference" "R40"
 			(at 232.41 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5523,7 +5577,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R20")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -5540,7 +5594,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1206330f-fa12-43b2-9a87-5ee37b01ff59")
-		(property "Reference" "U2"
+		(property "Reference" "U7"
 			(at 323.088 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5656,7 +5710,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "U2")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -5674,7 +5728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13ef1181-9f35-434d-b1e5-a183dbcccbe2")
-		(property "Reference" "R1"
+		(property "Reference" "R5"
 			(at 22.86 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5738,7 +5792,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5756,7 +5810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "166bb19d-7c0b-4715-979a-e5a8ffa0a8bb")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR029"
 			(at 29.21 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5816,7 +5870,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR05")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5834,7 +5888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d16061a-19a2-468d-90a3-34ee9389bb08")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR041"
 			(at 53.34 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5894,7 +5948,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR013")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5912,7 +5966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e90263e-c4d4-4012-bb35-3dc10cc242de")
-		(property "Reference" "R19"
+		(property "Reference" "R53"
 			(at 229.87 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5976,7 +6030,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R19")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -5994,7 +6048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23b2ea98-bf8d-4dc1-aa0b-a888d4a3e1e6")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR060"
 			(at 229.87 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6054,7 +6108,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR028")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -6072,7 +6126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "284f9f2b-f2c6-4fa5-892f-e3c2c11a5f99")
-		(property "Reference" "C3"
+		(property "Reference" "C19"
 			(at 90.17 83.8199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6199,7 +6253,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "C3")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -6217,7 +6271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ab7a2ef-5049-4e75-a817-6268026f8df1")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR013"
 			(at 276.86 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -6277,83 +6331,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 36.83 106.68 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "346b6dc1-087f-4912-a50b-98148c7fbc77")
-		(property "Reference" "J36"
-			(at 36.195 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_POWER"
-			(at 38.608 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 36.83 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "63df5af1-4080-481c-9824-a8af9f65778b")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "J36")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6370,7 +6348,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3490fa02-be50-4a19-87d8-5039d867fe99")
-		(property "Reference" "C2"
+		(property "Reference" "C18"
 			(at 72.39 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6434,7 +6412,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "C2")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -6452,7 +6430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3592c19e-ee53-4753-a6a2-9cd432de3bbd")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR035"
 			(at 49.53 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6512,7 +6490,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR010")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6529,7 +6507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e6e7cc2-2b57-44d9-ab01-70ac1db91d51")
-		(property "Reference" "J8"
+		(property "Reference" "J10"
 			(at 290.83 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6613,7 +6591,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "J8")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -6621,7 +6599,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 153.67 85.09 90)
+		(at 153.67 85.09 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6631,7 +6609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42dd8f9c-cdd3-4603-98fd-c2d205e435f5")
-		(property "Reference" "R4"
+		(property "Reference" "R7"
 			(at 153.67 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6652,7 +6630,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 153.67 86.868 90)
+			(at 153.67 83.312 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6693,7 +6671,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R4")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6711,7 +6689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4935b149-eaeb-49ef-a990-7a90aeadf889")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR030"
 			(at 29.21 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6771,7 +6749,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR04")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6788,7 +6766,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "538bb8f3-efcd-4a00-909a-b2d5b9f57439")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR033"
 			(at 199.39 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6848,7 +6826,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR023")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6866,7 +6844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cc7f3e9-c2a4-46ef-a4f6-c52cd0a4f920")
-		(property "Reference" "R18"
+		(property "Reference" "R52"
 			(at 227.33 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6930,84 +6908,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VPP")
-		(at 132.08 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5f123c4a-c81e-4068-8558-2840aaa9314c")
-		(property "Reference" "#PWR016"
-			(at 132.08 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VPP"
-			(at 129.032 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VPP\""
-			(at 132.08 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a45daf27-8e36-46d0-a0fb-4e4a21713940")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR016")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -7024,8 +6925,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "650a2a09-71c5-4a98-ba86-e242ab92384a")
-		(property "Reference" "J5"
-			(at 196.342 133.858 0)
+		(property "Reference" "J26"
+			(at 198.755 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7035,7 +6936,7 @@
 			)
 		)
 		(property "Value" "Vsense_ADC1_IN1"
-			(at 196.342 132.08 0)
+			(at 189.738 133.604 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7083,7 +6984,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "J5")
+					(reference "J26")
 					(unit 1)
 				)
 			)
@@ -7101,7 +7002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "671d266b-5e22-4943-ba61-7bebce1a66ac")
-		(property "Reference" "R3"
+		(property "Reference" "R37"
 			(at 152.4 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7165,7 +7066,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R3")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -7183,7 +7084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a6dff87-9785-47a0-b32a-2898742d8a4e")
-		(property "Reference" "D2"
+		(property "Reference" "D14"
 			(at 35.56 87.9474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7258,84 +7159,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 132.08 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "72114b71-1506-4daa-840d-8136aec5340e")
-		(property "Reference" "#PWR017"
-			(at 132.08 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 128.524 150.114 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 132.08 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d34e92e-d83d-460d-9961-dc00719329fd")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR017")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -7352,7 +7176,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7750c551-8890-46c8-91d8-1921bb3ce235")
-		(property "Reference" "J1"
+		(property "Reference" "J5"
 			(at 17.145 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7414,7 +7238,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "J1")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -7432,7 +7256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d50b84d-4b21-49da-a1c9-dcfed6e63770")
-		(property "Reference" "R2"
+		(property "Reference" "R6"
 			(at 34.29 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7496,7 +7320,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7513,7 +7337,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81038cb3-66f0-451b-bc55-178008a0bf9e")
-		(property "Reference" "J12"
+		(property "Reference" "J3"
 			(at 397.002 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7599,7 +7423,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "J12")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -7617,7 +7441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83c8b4ac-5279-4c2a-84be-b6dfaebe6bff")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR019"
 			(at 34.29 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7677,7 +7501,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR08")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7694,7 +7518,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "850fc0dd-03df-4365-9c24-23688ecd324e")
-		(property "Reference" "J7"
+		(property "Reference" "J2"
 			(at 283.21 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7778,7 +7602,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "J7")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7796,7 +7620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "868bec7a-801b-477e-8d31-0f0c26eb656e")
-		(property "Reference" "C1"
+		(property "Reference" "C16"
 			(at 43.18 39.7509 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7860,7 +7684,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "C1")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7878,7 +7702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87f3c9cc-670e-431b-9b52-1a8de60d5c80")
-		(property "Reference" "R17"
+		(property "Reference" "R39"
 			(at 220.98 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7942,7 +7766,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R17")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -7960,7 +7784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88bf7854-213e-4ac7-af62-8cf31740bf29")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 18.415 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8022,7 +7846,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8040,7 +7864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ac75469-b20c-4e10-9ba9-8e5febc4065f")
-		(property "Reference" "R5"
+		(property "Reference" "R43"
 			(at 160.02 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8104,7 +7928,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R5")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -8122,7 +7946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fc1f4b8-4c0c-4c17-bdc2-fa573ca0a17b")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR037"
 			(at 31.75 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8182,7 +8006,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR06")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -8190,7 +8014,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 175.26 83.82 0)
+		(at 175.26 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8200,8 +8024,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9469a157-27c0-484b-9154-ccdb275c0b7c")
-		(property "Reference" "R8"
-			(at 177.8 82.5499 0)
+		(property "Reference" "R38"
+			(at 177.8 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8212,7 +8036,7 @@
 			)
 		)
 		(property "Value" "R0"
-			(at 177.8 85.0899 0)
+			(at 177.8 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8223,7 +8047,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 173.482 83.82 90)
+			(at 173.482 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8234,7 +8058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 83.82 0)
+			(at 175.26 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8245,7 +8069,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 175.26 83.82 0)
+			(at 175.26 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8264,15 +8088,15 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R8")
+					(reference "R38")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 175.26 87.63 0)
+		(lib_id "Device:R")
+		(at 179.07 147.32 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8281,10 +8105,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "94a9d27c-32bf-4311-938c-d86a80b94895")
-		(property "Reference" "#PWR022"
-			(at 175.26 93.98 0)
-			(hide yes)
+		(uuid "9479441b-e84e-43ea-b068-f0c0464273ce")
+		(property "Reference" "R55"
+			(at 179.07 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8293,8 +8116,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 175.26 92.71 0)
+		(property "Value" "R0"
+			(at 179.07 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8303,8 +8126,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 175.26 87.63 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 179.07 149.098 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8315,7 +8138,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 87.63 0)
+			(at 179.07 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8475541b-406f-4894-971a-5aace4365b8d")
+		)
+		(pin "1"
+			(uuid "6733799f-5885-4b55-bcf5-65e7953d09ae")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94a9d27c-32bf-4311-938c-d86a80b94895")
+		(property "Reference" "#PWR051"
+			(at 175.26 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8326,7 +8230,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 87.63 0)
+			(at 175.26 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8342,7 +8246,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR022")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -8359,7 +8263,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c2ecec5-defc-432e-b59c-8db5c43cb6e7")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR053"
 			(at 132.08 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -8419,7 +8323,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR018")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -8436,7 +8340,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cae6bb2-aa0e-423e-b281-96e95618b804")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR025"
 			(at 114.3 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8496,7 +8400,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR014")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8615,7 +8519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a150e91c-206f-4ac6-8092-d6b189bb0b52")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR052"
 			(at 132.08 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -8675,7 +8579,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR019")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -8693,7 +8597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1af676f-cd8d-4b8e-a813-6c28654b0339")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR036"
 			(at 49.53 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -8753,7 +8657,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR011")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8771,7 +8675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2185e85-8a36-4e76-acd3-d8e27d1aa8b6")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR059"
 			(at 218.44 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8831,7 +8735,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR027")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -8849,7 +8753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a595794b-3717-459d-a9fc-7d403205ae44")
-		(property "Reference" "R16"
+		(property "Reference" "R51"
 			(at 218.44 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8913,7 +8817,84 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R16")
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VPP")
+		(at 132.08 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a8d6d31d-cefb-428c-b475-ff49ca5d49d4")
+		(property "Reference" "#PWR026"
+			(at 132.08 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VPP"
+			(at 129.032 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VPP\""
+			(at 132.08 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6e114c7-46cd-4ed4-8d93-78b37062a1d2")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8931,7 +8912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad63d28b-58d8-49af-80d2-34858f2cbb99")
-		(property "Reference" "D1"
+		(property "Reference" "D13"
 			(at 24.13 87.9474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9006,7 +8987,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "D1")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -9022,10 +9003,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ae1d35a4-ac7b-45e2-beb6-ffda63284d54")
-		(property "Reference" "R7"
-			(at 175.26 82.5499 0)
+		(property "Reference" "R49"
+			(at 175.26 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9036,7 +9016,7 @@
 			)
 		)
 		(property "Value" "R0"
-			(at 175.26 85.0899 0)
+			(at 175.26 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9088,7 +9068,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R7")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -9105,7 +9085,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae682250-ed23-4905-9061-0aaf18b6f04e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR057"
 			(at 138.43 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9165,7 +9145,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR021")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -9183,7 +9163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4744290-6771-43a5-b713-45e551c8f0cb")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR014"
 			(at 276.86 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -9243,7 +9223,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR030")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9261,7 +9241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b65de8dc-19dc-461d-ab83-435ff8d270eb")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR038"
 			(at 31.75 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9321,7 +9301,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR07")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9339,7 +9319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b73c6d39-7790-4460-8652-8f91849a894b")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR016"
 			(at 402.59 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9399,7 +9379,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR031")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9417,7 +9397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b90f0352-2b65-4e29-a548-e386681e0dbd")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR032"
 			(at 20.32 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9477,7 +9457,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR03")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9495,7 +9475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9f99bf2-c77a-47c2-9f9c-7742dc1c1848")
-		(property "Reference" "J3"
+		(property "Reference" "J8"
 			(at 52.07 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9565,7 +9545,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "J3")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -9583,7 +9563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb8664e1-b64a-42bf-9103-5556bc3acf3b")
-		(property "Reference" "R12"
+		(property "Reference" "R45"
 			(at 184.15 53.3876 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9647,7 +9627,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R12")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -9665,7 +9645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd5d391a-9623-4215-8ee2-07210882f6d8")
-		(property "Reference" "R14"
+		(property "Reference" "R44"
 			(at 191.77 53.3401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9729,7 +9709,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R14")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -9746,7 +9726,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfdb26e5-ed26-43e9-be8c-473f535e0b37")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR058"
 			(at 199.39 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9806,7 +9786,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR024")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -9823,7 +9803,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1875e22-0880-496d-91bc-32ce834a3db4")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 249.936 56.388 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9885,7 +9865,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -9903,7 +9883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c973e45d-3e2a-49e2-8402-f381a42cc375")
-		(property "Reference" "R13"
+		(property "Reference" "R8"
 			(at 190.5 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9965,7 +9945,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R13")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9981,10 +9961,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c9aefd4d-65e4-49f2-bcac-f20fb9fe09a0")
-		(property "Reference" "R6"
-			(at 172.72 82.5499 0)
+		(property "Reference" "R48"
+			(at 172.72 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10047,7 +10026,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R6")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -10065,7 +10044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cafec4a1-eb21-46ee-82af-84f683555a1d")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 54.61 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10209,7 +10188,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "U1")
+					(reference "U3")
 					(unit 5)
 				)
 			)
@@ -10226,7 +10205,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d16911ae-dc53-4b5e-afd4-6f7b1145b16f")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR028"
 			(at 138.43 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10286,7 +10265,87 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR020")
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 250.19 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7aafa09-a58e-4176-8002-e6f8725a8c37")
+		(property "Reference" "R57"
+			(at 250.19 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0"
+			(at 250.19 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 250.19 136.398 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 250.19 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4f89c545-b6f6-4437-b2dc-b0b52bb8cab7")
+		)
+		(pin "1"
+			(uuid "e0c204db-2717-4565-ae57-60a420e8d428")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -10304,7 +10363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db541be0-49aa-489e-b6bb-702a285a34a5")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR031"
 			(at 20.32 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10364,7 +10423,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR02")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -10382,7 +10441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2bab299-1adf-4542-9cc3-43c932ba4cb3")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR023"
 			(at 45.72 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -10442,7 +10501,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR09")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10459,7 +10518,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4ad1a35-246c-41e9-ba61-c9c984a5af1f")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR050"
 			(at 212.09 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -10519,7 +10578,87 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR026")
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 180.34 129.54 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7a73d67-707d-4036-87f0-bbc5eb49845f")
+		(property "Reference" "R54"
+			(at 180.34 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0"
+			(at 180.34 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 180.34 131.318 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 180.34 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c43d0826-cdfb-4aa3-acce-49a4ef1bc80b")
+		)
+		(pin "1"
+			(uuid "5e8d9bbb-3d46-4a9e-82c5-dbfdb7fb9ea1")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -10536,7 +10675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eaf597bb-fb14-42fe-b5b0-f5eb2ae4ee37")
-		(property "Reference" "J9"
+		(property "Reference" "J21"
 			(at 378.714 161.798 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10556,7 +10695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 			(at 372.11 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -10595,7 +10734,84 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "J9")
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 132.08 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eeb645c5-1e23-4e16-b76a-60243d91a4f9")
+		(property "Reference" "#PWR039"
+			(at 132.08 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 128.524 148.844 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 132.08 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af982501-28a1-46e9-8000-8218eeea6c8d")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -10612,7 +10828,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f23472c1-8560-47c5-8adb-d15e74cddf76")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR040"
 			(at 203.2 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10672,7 +10888,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR025")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -10690,7 +10906,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f368b3f1-d275-4a12-8861-30589ee7454a")
-		(property "Reference" "J4"
+		(property "Reference" "J6"
 			(at 164.338 44.958 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10752,7 +10968,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -10769,7 +10985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f82afc48-d9c8-446a-b9a1-93db4ca63fd3")
-		(property "Reference" "J10"
+		(property "Reference" "J16"
 			(at 375.285 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10789,7 +11005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 			(at 375.92 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -10828,7 +11044,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "J10")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -10846,7 +11062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9606210-33e7-49d7-b880-3f36c9552ff5")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR034"
 			(at 19.05 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -10906,7 +11122,87 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR01")
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 179.07 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb89cbda-45da-45d3-b8b7-2d680e8821ce")
+		(property "Reference" "R56"
+			(at 179.07 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0"
+			(at 179.07 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 179.07 169.418 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "73f70d62-590a-42cf-bfea-642fab043efc")
+		)
+		(pin "1"
+			(uuid "745fda0e-8484-4040-9ee5-c99c65630c36")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -10924,7 +11220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcc70918-7caa-406e-957b-41a1e1510d2c")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR046"
 			(at 53.34 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10984,7 +11280,87 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "#PWR012")
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:MBR1020VL")
+		(at 35.56 22.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe12ec07-e6d2-4ea8-a9e0-3a82739c906a")
+		(property "Reference" "D12"
+			(at 35.8775 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR1020VL"
+			(at 35.8775 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-15_P2.54mm_Vertical_CathodeUp"
+			(at 35.56 18.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MBR1020VL-D.PDF"
+			(at 35.56 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "20V, 1A, 340 mV, Schottky Diode Rectifier, SOD-123F"
+			(at 35.56 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d403558e-5e34-4444-bfec-ca58b0dafa10")
+		)
+		(pin "1"
+			(uuid "4ff00fe8-218b-4a0e-ade4-c45f277d053b")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -11845,6 +12221,16 @@
 				(justify left top)
 			)
 		)
+		(pin "transducer_out_scaled" output
+			(at 172.72 167.64 0)
+			(uuid "77a9a14e-9e0d-4ac6-aada-2239bf7263ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(pin "transducer_power" input
 			(at 134.62 170.18 180)
 			(uuid "2d838837-3a85-4399-b061-701ffb384e87")
@@ -11863,16 +12249,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "transducer_out_scaled" output
-			(at 172.72 167.64 0)
-			(uuid "3facbac7-ba23-40f0-926c-8451e86cb283")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances

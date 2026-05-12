@@ -2368,6 +2368,12 @@
 		(uuid "09bb572c-8344-44f2-9d25-d12163c16d2e")
 	)
 	(junction
+		(at 140.97 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cb41aa6-b426-4a46-8601-bad64cbe0ed8")
+	)
+	(junction
 		(at 106.68 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2422,18 +2428,6 @@
 		(uuid "36004ff7-262c-48c8-8a9c-dcb0e581b32a")
 	)
 	(junction
-		(at 140.97 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e8a6e37-f5c9-48ed-a242-0249378e3a82")
-	)
-	(junction
-		(at 153.67 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46acc6c0-00d4-42c4-b94c-d8fba49b88c4")
-	)
-	(junction
 		(at 153.67 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2446,10 +2440,10 @@
 		(uuid "560d3e2e-dc05-470e-ba2e-6eb84a60e26b")
 	)
 	(junction
-		(at 153.67 82.55)
+		(at 153.67 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "59b97a6f-3532-46b4-be76-f7a6596efd82")
+		(uuid "570c2e71-fb46-4bda-b8d2-4b6cfcb1f369")
 	)
 	(junction
 		(at 64.77 49.53)
@@ -2480,6 +2474,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77c1a40c-b2b6-46f1-9203-f842ce0d21d5")
+	)
+	(junction
+		(at 140.97 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79b7a39d-fdf0-4521-9134-d368d5f4ea3d")
 	)
 	(junction
 		(at 229.87 62.23)
@@ -2522,12 +2522,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "966bcde5-6496-4416-b40f-f6e2dd2d5e97")
-	)
-	(junction
-		(at 140.97 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9eac9267-da99-4578-ad20-a83113c13cda")
 	)
 	(junction
 		(at 196.85 35.56)
@@ -2588,6 +2582,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de001ae5-d870-4cc7-a040-4d51bc1c7579")
+	)
+	(junction
+		(at 153.67 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df82071d-15f3-4e65-85dd-e2ce1ac75897")
 	)
 	(junction
 		(at 196.85 64.77)
@@ -2684,6 +2684,16 @@
 			(type default)
 		)
 		(uuid "1a2133dd-e830-4dcc-95a3-65bd4eaa35ff")
+	)
+	(wire
+		(pts
+			(xy 140.97 83.82) (xy 143.51 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a3ef698-eaa7-45a1-bbdf-baa204c2382d")
 	)
 	(wire
 		(pts
@@ -2797,6 +2807,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 76.2) (xy 140.97 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b1d7f0-5e60-4d8c-acf9-9f1cdd5372ab")
+	)
+	(wire
+		(pts
 			(xy 52.07 64.77) (xy 55.88 64.77)
 		)
 		(stroke
@@ -2837,7 +2857,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 67.31) (xy 140.97 74.93)
+			(xy 140.97 76.2) (xy 143.51 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307539cf-4132-41fa-91db-fa9e6d4c57c3")
+	)
+	(wire
+		(pts
+			(xy 140.97 67.31) (xy 140.97 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2864,6 +2894,16 @@
 			(type default)
 		)
 		(uuid "323095ca-8e88-43dd-bb6f-2eeb403c517d")
+	)
+	(wire
+		(pts
+			(xy 140.97 83.82) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340022dd-efb4-4e8f-9ac6-fa32906c01f8")
 	)
 	(wire
 		(pts
@@ -3137,16 +3177,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 74.93) (xy 153.67 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cc5940c-50b3-4dc2-96a6-9264b06d92bb")
-	)
-	(wire
-		(pts
 			(xy 91.44 77.47) (xy 97.79 77.47)
 		)
 		(stroke
@@ -3187,7 +3217,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 67.31) (xy 153.67 74.93)
+			(xy 153.67 67.31) (xy 153.67 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3224,6 +3254,16 @@
 			(type default)
 		)
 		(uuid "7c3a0261-ae97-4b27-bd6c-4b61ca2fc5d2")
+	)
+	(wire
+		(pts
+			(xy 153.67 76.2) (xy 153.67 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cfcac57-a3f0-4569-8403-ab55aa6cf1d6")
 	)
 	(wire
 		(pts
@@ -3274,6 +3314,26 @@
 			(type default)
 		)
 		(uuid "8a06dfbc-d52e-4b45-8cbf-6bfb15c9a157")
+	)
+	(wire
+		(pts
+			(xy 151.13 83.82) (xy 153.67 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7f2a77-665a-4043-8b1a-ba630cae32fd")
+	)
+	(wire
+		(pts
+			(xy 151.13 76.2) (xy 153.67 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b08cb86-60b4-4feb-919f-f43408d83c69")
 	)
 	(wire
 		(pts
@@ -3477,16 +3537,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 82.55) (xy 153.67 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8eff439-caf3-4933-994c-8f0371ed9626")
-	)
-	(wire
-		(pts
 			(xy 147.32 17.78) (xy 147.32 25.4)
 		)
 		(stroke
@@ -3627,6 +3677,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 83.82) (xy 153.67 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf9d9cf-6db4-4493-b935-6d4ab870c649")
+	)
+	(wire
+		(pts
 			(xy 229.87 49.53) (xy 231.14 49.53)
 		)
 		(stroke
@@ -3734,16 +3794,6 @@
 			(type default)
 		)
 		(uuid "dc8e1e78-7559-4ea2-ae36-c5c4098f56c0")
-	)
-	(wire
-		(pts
-			(xy 140.97 82.55) (xy 140.97 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc97dde7-7410-4821-8c03-32e78eeb8248")
 	)
 	(wire
 		(pts
@@ -3894,16 +3944,6 @@
 			(type default)
 		)
 		(uuid "fd9785c5-c1ac-4ed0-9749-6676dae62808")
-	)
-	(wire
-		(pts
-			(xy 140.97 74.93) (xy 140.97 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe4d7dbc-e3a0-4c02-8cd9-3b71cbf5e675")
 	)
 	(label "VCC_Inverter"
 		(at 55.88 64.77 0)
@@ -4265,7 +4305,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a8b7505-9409-46ba-a71a-efde2b0e87a6")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR09"
 			(at 250.19 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4325,7 +4365,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "#PWR037")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4344,7 +4384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0edd8c90-616b-4931-9348-8449ede84ba2")
-		(property "Reference" "R29"
+		(property "Reference" "R14"
 			(at 207.01 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4468,7 +4508,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "R29")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4486,7 +4526,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0fe1d79d-7a10-4366-86c4-09a297f07797")
-		(property "Reference" "C13"
+		(property "Reference" "C6"
 			(at 237.744 56.896 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4612,7 +4652,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "C13")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4779,7 +4819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "225a55a9-55c4-48ec-bc3b-64831f1ca92e")
-		(property "Reference" "D7"
+		(property "Reference" "D5"
 			(at 207.01 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4863,7 +4903,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "D7")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4882,7 +4922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "230133ae-b652-4dc4-a721-18591adbd5fc")
-		(property "Reference" "R27"
+		(property "Reference" "R16"
 			(at 185.42 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5008,7 +5048,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "R27")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5025,7 +5065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b2d4ebd-1d56-4a50-97a0-a82138dffe99")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR02"
 			(at 44.45 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5085,7 +5125,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "#PWR034")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5103,7 +5143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cd1c988-6cd6-455c-b914-f7c11758d790")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR01"
 			(at 26.67 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5163,7 +5203,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "#PWR033")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5181,7 +5221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b1790e8-62f0-40ac-8907-374b5a53a0ee")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR065"
 			(at 26.67 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5241,7 +5281,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "#PWR032")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -5260,7 +5300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c90b95b-8c6e-439c-9539-cdb9008aad6b")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR07"
 			(at 267.97 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5321,7 +5361,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "#PWR039")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5339,7 +5379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45c6aec4-84d2-45ff-b84f-bc9469454f62")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 87.63 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5351,7 +5391,6 @@
 		)
 		(property "Value" "1N4004"
 			(at 87.63 43.18 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5424,7 +5463,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5442,7 +5481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47701d98-d9fe-4dda-8094-a45b0c7a31a4")
-		(property "Reference" "HS2"
+		(property "Reference" "HS5"
 			(at 99.06 102.2349 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5500,7 +5539,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "HS2")
+					(reference "HS5")
 					(unit 1)
 				)
 			)
@@ -5519,7 +5558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48f97db0-ba09-48ef-8c27-1cb84a9b20cf")
-		(property "Reference" "D8"
+		(property "Reference" "D6"
 			(at 207.01 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5603,7 +5642,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "D8")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -5768,7 +5807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e4c9b7b-5466-45dd-9887-df5eb5d00ce6")
-		(property "Reference" "HS4"
+		(property "Reference" "HS6"
 			(at 115.57 102.2349 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5826,7 +5865,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "HS4")
+					(reference "HS6")
 					(unit 1)
 				)
 			)
@@ -5844,7 +5883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e8c57cf-9b20-4924-a1b8-27e2908be734")
-		(property "Reference" "D6"
+		(property "Reference" "D3"
 			(at 87.63 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5856,7 +5895,6 @@
 		)
 		(property "Value" "1N4004"
 			(at 87.63 73.66 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5929,7 +5967,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "D6")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5947,7 +5985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "558b1714-cedc-4ec8-8558-cbdf3a9644ae")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR03"
 			(at 128.27 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6007,7 +6045,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "#PWR035")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6025,7 +6063,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bb71bb1-6216-40f4-b0cf-93a56e371bb4")
-		(property "Reference" "C12"
+		(property "Reference" "C7"
 			(at 216.408 51.308 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6151,7 +6189,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "C12")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6169,7 +6207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d5348fc-a313-414e-bf3b-f76b3ce83c49")
-		(property "Reference" "R24"
+		(property "Reference" "R12"
 			(at 109.22 43.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6182,7 +6220,6 @@
 		)
 		(property "Value" "MF25_10K"
 			(at 109.22 45.7199 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6296,7 +6333,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "R24")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6314,7 +6351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "613fff6c-5fd5-42f4-add8-6d1ca9aae347")
-		(property "Reference" "R23"
+		(property "Reference" "R10"
 			(at 87.63 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6438,7 +6475,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "R23")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6456,7 +6493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "626f25ed-2bba-43eb-ae19-e0ccf865aa4b")
-		(property "Reference" "HS1"
+		(property "Reference" "HS3"
 			(at 99.06 94.6149 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6514,7 +6551,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "HS1")
+					(reference "HS3")
 					(unit 1)
 				)
 			)
@@ -6532,7 +6569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "666508c9-2327-4c6e-b569-36d801c37e57")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 46.5933 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6633,7 +6670,87 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "U3")
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 147.32 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6726ab5e-3f27-4838-90e9-85401c71204e")
+		(property "Reference" "C17"
+			(at 147.32 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 147.32 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_THT:L_Axial_L23.4mm_D12.7mm_P32.00mm_Horizontal_Vishay_IHA-203"
+			(at 151.13 75.2348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "526c8c17-25c3-486c-8a8a-cc230bc5d9af")
+		)
+		(pin "1"
+			(uuid "cac391c9-dc82-4fbf-afea-bfaef50c6160")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -6651,7 +6768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ddde717-07e0-43a1-b72f-570af13de011")
-		(property "Reference" "C14"
+		(property "Reference" "C26"
 			(at 259.08 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6775,7 +6892,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "C14")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -6793,7 +6910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "714505ed-88ee-48ca-8fb4-4f700d4fdaf9")
-		(property "Reference" "R25"
+		(property "Reference" "R11"
 			(at 109.22 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6806,7 +6923,6 @@
 		)
 		(property "Value" "MF25_10K"
 			(at 109.22 74.9299 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6920,7 +7036,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "R25")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6936,9 +7052,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "76c65726-3ac5-44e9-af20-4a441ce3c507")
 		(property "Reference" "C8"
-			(at 147.32 70.866 0)
+			(at 147.32 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6949,7 +7066,6 @@
 		)
 		(property "Value" "B32529C1104K000"
 			(at 147.32 62.23 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7081,7 +7197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bb81ae9-b34b-4753-8dcd-bb7ccf7a43f5")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR066"
 			(at 267.97 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -7142,7 +7258,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "#PWR038")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -7160,7 +7276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7beba1a5-37dc-4980-8d36-8c933c68b289")
-		(property "Reference" "HS3"
+		(property "Reference" "HS4"
 			(at 115.57 94.6149 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7218,291 +7334,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "HS3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "B32529C1104K000:B32529C1104K000")
-		(at 140.97 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "893779f4-6540-4ab4-b5ca-b23a16839875")
-		(property "Reference" "C9"
-			(at 147.32 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B32529C1104K000"
-			(at 147.32 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L24.0mm_W12.8mm_P22.50mm_MKT"
-			(at 149.86 171.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkt/data_sheet/20/20/db/fc_2009/b32520_529.pdf"
-			(at 149.86 271.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "EPCOS - B32529C1104K000 - General Purpose Film Capacitor, Metallized PET Stacked, Radial Box - 2 Pin, 0.1 F, +/- 10%, 63 V//"
-			(at 140.97 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "6.5"
-			(at 149.86 471.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Farnell Part Number" ""
-			(at 149.86 571.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Farnell Price/Stock" ""
-			(at 149.86 671.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "TDK"
-			(at 149.86 771.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B32529C1104K000"
-			(at 149.86 871.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "4b2f095f-e61f-4487-b70f-70ce4dd22784")
-		)
-		(pin "2"
-			(uuid "fe3ba9ba-1b4c-4f7b-9eda-206476ce754e")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "B32529C1104K000:B32529C1104K000")
-		(at 140.97 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8d2b43f4-fbe5-4fda-92bc-bea53cc210ae")
-		(property "Reference" "C10"
-			(at 147.066 86.106 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B32529C1104K000"
-			(at 147.32 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_THT:L_Axial_L23.4mm_D12.7mm_P32.00mm_Horizontal_Vishay_IHA-203"
-			(at 149.86 178.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkt/data_sheet/20/20/db/fc_2009/b32520_529.pdf"
-			(at 149.86 278.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "EPCOS - B32529C1104K000 - General Purpose Film Capacitor, Metallized PET Stacked, Radial Box - 2 Pin, 0.1 F, +/- 10%, 63 V//"
-			(at 140.97 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "6.5"
-			(at 149.86 478.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Farnell Part Number" ""
-			(at 149.86 578.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Farnell Price/Stock" ""
-			(at 149.86 678.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "TDK"
-			(at 149.86 778.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B32529C1104K000"
-			(at 149.86 878.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "e485d95a-0766-4031-b858-1c09bb5395af")
-		)
-		(pin "2"
-			(uuid "ca61d9d3-d6d6-4a55-977c-725991541d16")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "C10")
+					(reference "HS4")
 					(unit 1)
 				)
 			)
@@ -7521,7 +7353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "976e3d0c-7cfb-4062-8c6c-4ccb6e31e659")
-		(property "Reference" "C15"
+		(property "Reference" "C5"
 			(at 259.08 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7645,7 +7477,87 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "C15")
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 147.32 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6b31c83-897b-4590-8150-4ef2481c85a6")
+		(property "Reference" "C20"
+			(at 147.32 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 147.32 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L24.0mm_W12.8mm_P22.50mm_MKT"
+			(at 151.13 82.8548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "14d4d19c-a819-41d1-af76-d6a3b38f0b33")
+		)
+		(pin "1"
+			(uuid "ac9ae321-2e53-45ae-8002-57ece1fba1f1")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -7664,7 +7576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a74ff8c4-ff3c-46f5-b347-39f90ca1d992")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 248.0467 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7765,7 +7677,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7784,7 +7696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2b914a1-b35b-4fae-bc0d-d25e8e786aad")
-		(property "Reference" "D9"
+		(property "Reference" "D4"
 			(at 236.22 35.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7910,7 +7822,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "D9")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -7928,7 +7840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2f928af-409a-483b-8539-802c755da90e")
-		(property "Reference" "C5"
+		(property "Reference" "C25"
 			(at 38.1 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8052,7 +7964,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "C5")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -8070,7 +7982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b80b9272-5309-4277-8549-841026e6cf66")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 35.56 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8194,7 +8106,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -8213,7 +8125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c94e5255-a81a-4802-a737-811faed5a0ec")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR012"
 			(at 166.37 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8273,7 +8185,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "#PWR036")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8291,7 +8203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db46d62e-f44d-4961-8dfd-67f1ed20a8aa")
-		(property "Reference" "R22"
+		(property "Reference" "R9"
 			(at 87.63 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8415,7 +8327,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "R22")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8432,7 +8344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df13a334-725b-4100-9a79-deb191cf7f63")
-		(property "Reference" "C6"
+		(property "Reference" "C2"
 			(at 56.896 56.896 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8558,7 +8470,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "C6")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8574,9 +8486,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f22feadf-78a2-45dc-836d-617909d9fce8")
-		(property "Reference" "C11"
-			(at 147.32 57.912 90)
+		(property "Reference" "C3"
+			(at 147.32 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8587,7 +8500,6 @@
 		)
 		(property "Value" "C"
 			(at 147.32 48.26 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8638,7 +8550,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "C11")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8657,7 +8569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4898bd7-bc00-4e9b-9efc-48eb6489cbab")
-		(property "Reference" "R26"
+		(property "Reference" "R15"
 			(at 185.42 43.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8783,7 +8695,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "R26")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8800,7 +8712,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4c2e9d2-b345-44e1-a646-e43a64a6f57b")
-		(property "Reference" "C7"
+		(property "Reference" "C4"
 			(at 78.232 51.308 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8926,7 +8838,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "C7")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8945,7 +8857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb8feda7-1697-42c6-bcbe-f2fc836ad45e")
-		(property "Reference" "R28"
+		(property "Reference" "R13"
 			(at 207.01 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9069,7 +8981,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "R28")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -9087,7 +8999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fde4ed9b-b09e-4d68-b1e6-7d4c56d562db")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 58.42 35.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9213,7 +9125,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
