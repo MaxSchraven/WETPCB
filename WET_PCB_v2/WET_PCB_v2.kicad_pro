@@ -743,7 +743,7 @@
         "uuid": "13451c35-1666-47d9-9525-8d8125ba1cf3"
       }
     ],
-    "used_designators": "R3,J37-47,JMP1-24,C7,C12,C23,C26-31,MNT1-12,D3,D12,#PWR67-73,H1-6",
+    "used_designators": "R3,J37-47,JMP1-24,C7,C12,C23,C26-32,MNT1-12,D3,D12,#PWR67-73,H1-6",
     "variants": []
   },
   "sheets": [
