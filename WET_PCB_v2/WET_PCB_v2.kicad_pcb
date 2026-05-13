@@ -43940,7 +43940,7 @@
 		(placed yes)
 		(layer "B.Cu")
 		(uuid "5b3b1bcb-548a-4f3b-a067-d586344d7a29")
-		(at 194.53 95.08 -90)
+		(at 194.52 97.12 90)
 		(descr "C, Radial series, Radial, pin pitch=2.00mm, diameter=5mm, height=11mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 2.00mm diameter 5mm height 11mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C23"
@@ -44005,7 +44005,7 @@
 			)
 		)
 		(property "Height" "12"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -44019,7 +44019,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -44033,7 +44033,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -44047,7 +44047,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Multicomp Pro"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -44061,7 +44061,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MCGPR63V106M5X11"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -44131,7 +44131,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 270)
+			(at 0 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -44142,7 +44142,7 @@
 			(uuid "558e0a6b-3c2f-4255-9387-e93496abe15b")
 		)
 		(pad "2" thru_hole circle
-			(at 2 0 270)
+			(at 2 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
