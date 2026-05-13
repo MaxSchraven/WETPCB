@@ -3405,16 +3405,6 @@
 		)
 		(uuid "87f129f2-5ebc-409f-aab3-7ed425f49429")
 	)
-	(text "look for other UV LEDs"
-		(exclude_from_sim no)
-		(at 52.324 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a476dda3-9dfa-47bd-a573-c157659f823c")
-	)
 	(text "`where do we need this voltage"
 		(exclude_from_sim no)
 		(at 226.314 120.65 0)
@@ -3496,6 +3486,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1686acaa-e848-4b56-800a-e8aa3f2abd70")
+	)
+	(junction
+		(at 381 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1889ca53-70e3-461a-ab02-ff72f1b4ebba")
 	)
 	(junction
 		(at 294.64 142.24)
@@ -3702,6 +3698,12 @@
 		(uuid "e4249ecc-0a37-4314-ba4c-de732bcf0687")
 	)
 	(junction
+		(at 378.46 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed09d0f1-02a2-4971-9e6b-d54422977615")
+	)
+	(junction
 		(at 370.84 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3762,6 +3764,16 @@
 			(type default)
 		)
 		(uuid "08198d49-59dd-404d-a806-061be43cdd71")
+	)
+	(wire
+		(pts
+			(xy 378.46 170.18) (xy 384.81 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "081f90e0-3965-418d-85a0-77cb37071e77")
 	)
 	(wire
 		(pts
@@ -3832,6 +3844,16 @@
 			(type default)
 		)
 		(uuid "2134c1a5-3c5a-4e2e-a700-cd085208bab8")
+	)
+	(wire
+		(pts
+			(xy 381 166.37) (xy 373.38 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e96cc5-3f38-4749-9620-e75cd8143ebd")
 	)
 	(wire
 		(pts
@@ -4525,6 +4547,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 170.18) (xy 378.46 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9afd20db-e680-4cee-8702-5bb310bccd73")
+	)
+	(wire
+		(pts
 			(xy 287.02 152.4) (xy 294.64 152.4)
 		)
 		(stroke
@@ -4582,6 +4614,16 @@
 			(type default)
 		)
 		(uuid "a33910e3-6bcb-4d4b-acad-abfde4afd9d1")
+	)
+	(wire
+		(pts
+			(xy 381 166.37) (xy 381 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a637cd54-6561-433b-85ab-7adafaf2ad30")
 	)
 	(wire
 		(pts
@@ -4725,7 +4767,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 166.37) (xy 373.38 166.37)
+			(xy 382.27 166.37) (xy 381 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4755,7 +4797,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 170.18) (xy 384.81 170.18)
+			(xy 367.03 170.18) (xy 378.46 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5394,8 +5436,8 @@
 				)
 			)
 		)
-		(property "Value" "Programming"
-			(at 387.604 159.766 0)
+		(property "Value" "PRGM_DBG"
+			(at 391.922 164.846 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6858,6 +6900,85 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 378.46 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "47ee6861-db5a-4722-be30-e68083473d42")
+		(property "Reference" "J37"
+			(at 381.762 176.276 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PRGM_DBG"
+			(at 379.222 180.086 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 378.46 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 378.46 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd538cdb-1275-4b40-91dd-cdceefc9b103")
+		)
+		(pin "2"
+			(uuid "11fec38f-979f-4e3a-a511-5bead2513967")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "J37")
 					(unit 1)
 				)
 			)
