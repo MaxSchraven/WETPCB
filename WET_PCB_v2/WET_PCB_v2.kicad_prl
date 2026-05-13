@@ -11,11 +11,11 @@
     "net_color_mode": 1,
     "opacity": {
       "images": 0.5699999928474426,
-      "pads": 0.2800000011920929,
+      "pads": 0.3799999952316284,
       "shapes": 0.550000011920929,
-      "tracks": 1.0,
+      "tracks": 0.4699999988079071,
       "vias": 1.0,
-      "zones": 0.4000000059604645
+      "zones": 0.3199999928474426
     },
     "prototype_zone_fills": false,
     "selection_filter": {
