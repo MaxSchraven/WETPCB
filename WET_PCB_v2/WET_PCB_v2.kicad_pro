@@ -513,9 +513,17 @@
         "wire_width": 6
       },
       {
-        "name": "5v",
+        "name": "12v",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.4,
+        "tuning_profile": ""
+      },
+      {
+        "name": "5v",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "tuning_profile": ""
@@ -534,6 +542,10 @@
       {
         "netclass": "5v",
         "pattern": "+5V"
+      },
+      {
+        "netclass": "12v",
+        "pattern": "+12V"
       }
     ]
   },
