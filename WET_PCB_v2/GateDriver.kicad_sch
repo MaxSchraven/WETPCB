@@ -1506,25 +1506,17 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "check cap orientation\n"
-		(exclude_from_sim no)
-		(at 130.048 68.834 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a47ebbf2-040b-4fdb-9472-131810b748fd")
+	(junction
+		(at 83.82 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "043745e9-03ca-461b-9b2c-dcecdf4cacaf")
 	)
-	(text "HIn = the input high from the MCU\nLin = PWM low from the mcu\nSD = shutdown tie to +12V"
-		(exclude_from_sim no)
-		(at 37.846 79.248 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ed1b6248-82a1-4343-94aa-2799ee8cbd62")
+	(junction
+		(at 127 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06c2037e-da2e-45df-8475-4b1ed5c2e2c1")
 	)
 	(junction
 		(at 154.94 43.18)
@@ -1533,16 +1525,28 @@
 		(uuid "0cb5bb8a-2e75-4211-8a6f-486a1f038c37")
 	)
 	(junction
-		(at 93.98 35.56)
+		(at 83.82 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "49cea7b8-a59d-4764-8df5-aff5f3b2dfbb")
+		(uuid "25a4126d-60c2-4f47-ab6c-70bb69cfdd39")
+	)
+	(junction
+		(at 129.54 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "268a81d2-6d38-468d-8d77-ef5de2e6df73")
+	)
+	(junction
+		(at 139.7 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "365c1986-3474-4815-96fa-015284b288cc")
 	)
 	(junction
 		(at 157.48 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "50fd721f-2037-47fc-a91c-95fb4f502ffe")
+		(uuid "46fefbaa-bd15-47b2-8fc6-0c3e8a1e40c1")
 	)
 	(junction
 		(at 105.41 69.85)
@@ -1551,34 +1555,16 @@
 		(uuid "55380ff0-1565-4aa5-b312-8e09cde7f02d")
 	)
 	(junction
-		(at 83.82 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "608c4d29-9f5d-47bf-9abd-1c396aa4e57e")
-	)
-	(junction
 		(at 93.98 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "680b4aca-2c32-44ab-96e8-f0d2454e96a0")
 	)
 	(junction
-		(at 129.54 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7930a203-adc1-46ce-bae3-36edeb0a1163")
-	)
-	(junction
 		(at 125.73 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82ea5d56-6cdb-4c2b-ac5c-e04bce20f85c")
-	)
-	(junction
-		(at 83.82 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d5d53ef-d9fb-44bf-a486-07b59a0d769c")
 	)
 	(junction
 		(at 83.82 46.99)
@@ -1591,6 +1577,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5b2bffc-5c07-4c06-87be-caa292822564")
+	)
+	(junction
+		(at 93.98 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0151407-ff9c-4576-aa37-25130b457448")
 	)
 	(junction
 		(at 146.05 43.18)
@@ -1628,7 +1620,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 72.39) (xy 104.14 72.39)
+			(xy 91.44 72.39) (xy 95.25 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1678,7 +1670,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 82.55) (xy 83.82 92.71)
+			(xy 83.82 82.55) (xy 83.82 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1698,13 +1690,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 72.39) (xy 157.48 73.66)
+			(xy 142.24 19.05) (xy 139.7 19.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "376e241a-b634-4b73-8fb7-75b7962e8dcb")
+		(uuid "37c20863-d3d8-42f5-aae0-42fe886cf125")
 	)
 	(wire
 		(pts
@@ -1715,6 +1707,16 @@
 			(type default)
 		)
 		(uuid "43225dd8-244c-47f7-acbe-982ab39db975")
+	)
+	(wire
+		(pts
+			(xy 127 31.75) (xy 139.7 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f777cd-70f8-498d-b844-17bc0cb7db5a")
 	)
 	(wire
 		(pts
@@ -1735,6 +1737,16 @@
 			(type default)
 		)
 		(uuid "5143e6e6-9a8d-4223-a88d-237f1604d828")
+	)
+	(wire
+		(pts
+			(xy 129.54 69.85) (xy 154.94 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "566c6e1d-afe1-4125-87de-edb71084ded3")
 	)
 	(wire
 		(pts
@@ -1818,7 +1830,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 36.83) (xy 69.85 36.83)
+			(xy 66.04 36.83) (xy 68.58 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1898,6 +1910,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 31.75) (xy 127 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85045179-895b-4ce1-82db-51dd729fe7d8")
+	)
+	(wire
+		(pts
 			(xy 93.98 52.07) (xy 93.98 59.69)
 		)
 		(stroke
@@ -1928,7 +1950,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 69.85) (xy 154.94 69.85)
+			(xy 105.41 69.85) (xy 129.54 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1975,6 +1997,16 @@
 			(type default)
 		)
 		(uuid "a93ca7b0-86af-4bb8-8d15-d5d8b215d761")
+	)
+	(wire
+		(pts
+			(xy 115.57 19.05) (xy 139.7 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac42bb9f-6f17-496e-a76d-538d1aecdf5b")
 	)
 	(wire
 		(pts
@@ -2028,7 +2060,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 35.56) (xy 93.98 35.56)
+			(xy 97.79 35.56) (xy 93.98 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2048,16 +2080,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 91.44) (xy 157.48 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d77e05b1-c953-44e8-a9c6-b78ef16a55ee")
-	)
-	(wire
-		(pts
 			(xy 157.48 72.39) (xy 175.26 72.39)
 		)
 		(stroke
@@ -2068,7 +2090,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 36.83) (xy 83.82 36.83)
+			(xy 81.28 36.83) (xy 83.82 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2176,18 +2198,8 @@
 		)
 		(uuid "f41622f1-5e35-4329-a107-c4612ece9c97")
 	)
-	(wire
-		(pts
-			(xy 105.41 69.85) (xy 129.54 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f92ebdfb-ed16-4219-bc8e-00f6d7e724a9")
-	)
 	(label "VCC_Driver"
-		(at 104.14 72.39 0)
+		(at 95.25 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2197,7 +2209,7 @@
 		(uuid "00ca6c55-5eef-4e62-9b64-1cf29859c1c1")
 	)
 	(label "VCC_Driver"
-		(at 96.52 35.56 0)
+		(at 97.79 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2205,6 +2217,16 @@
 			(justify left bottom)
 		)
 		(uuid "412583e1-faae-4f07-8942-4d4f6a38c0b3")
+	)
+	(label "VCC_Driver"
+		(at 142.24 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6120feef-c986-439e-b892-52069eb9e8c1")
 	)
 	(hierarchical_label "DCDC_Driver_Lin"
 		(shape input)
@@ -2438,6 +2460,7 @@
 		)
 		(property "Value" "MF25_10K"
 			(at 157.48 53.3399 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2712,7 +2735,7 @@
 		(dnp no)
 		(uuid "2e25a736-83ca-447b-b8cd-14a513e40cfe")
 		(property "Reference" "R36"
-			(at 136.144 72.39 0)
+			(at 136.144 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2723,6 +2746,7 @@
 		)
 		(property "Value" "MF25_10K"
 			(at 136.398 74.422 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2851,7 +2875,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2f29141a-ee0a-4d3f-b304-a8eceee0f32a")
 		(property "Reference" "#PWR046"
 			(at 66.04 53.34 0)
@@ -2865,7 +2888,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 52.07 0)
+			(at 66.04 51.308 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2921,7 +2944,7 @@
 	)
 	(symbol
 		(lib_id "MF25_10K:MF25_10K")
-		(at 157.48 91.44 90)
+		(at 157.48 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2929,10 +2952,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4fde0266-e327-487e-b52b-004de1f161c0")
 		(property "Reference" "R38"
-			(at 160.02 81.2799 90)
+			(at 159.766 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2943,7 +2965,8 @@
 			)
 		)
 		(property "Value" "MF25_10K"
-			(at 160.02 83.8199 90)
+			(at 160.02 82.5499 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2954,7 +2977,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 253.67 77.47 0)
+			(at 253.67 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2966,7 +2989,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/MF25 10K.pdf"
-			(at 353.67 77.47 0)
+			(at 353.67 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2978,7 +3001,7 @@
 			)
 		)
 		(property "Description" "MULTICOMP - MF25 10K - RESISTOR, 10K, 0.25W, 1%"
-			(at 157.48 91.44 0)
+			(at 157.48 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2989,7 +3012,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 553.67 77.47 0)
+			(at 553.67 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3001,7 +3024,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 653.67 77.47 0)
+			(at 653.67 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3013,7 +3036,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 753.67 77.47 0)
+			(at 753.67 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3025,7 +3048,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Multicomp Pro"
-			(at 853.67 77.47 0)
+			(at 853.67 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3037,7 +3060,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MF25 10K"
-			(at 953.67 77.47 0)
+			(at 953.67 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3058,6 +3081,149 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318/ed463157-80b7-4a9f-82d4-4d12eed2bec3"
 					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCGPR63V106M5X11:MCGPR63V106M5X11")
+		(at 139.7 19.05 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "77e3bb77-e545-43bb-88b5-3583641267af")
+		(property "Reference" "C27"
+			(at 146.304 23.876 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MCGPR63V106M5X11"
+			(at 162.56 26.162 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+			(at 43.51 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" ""
+			(at -56.49 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MULTICOMP PRO MCGPR63V106M5X11Electrolytic Capacitor, 10 F, 63 V, +/- 20%, Radial Leaded, 2000 hours @ 85C, Polar"
+			(at 139.7 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "12"
+			(at -256.49 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at -356.49 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at -456.49 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at -556.49 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCGPR63V106M5X11"
+			(at -656.49 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "f6ffc7b2-579e-44f8-9557-c8a3fb31f331")
+		)
+		(pin "2"
+			(uuid "60b78ae9-eb4e-478a-a8e4-2a4e9d40b74b")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318/ed463157-80b7-4a9f-82d4-4d12eed2bec3"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -3208,7 +3374,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 92.71 0)
+		(at 83.82 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3218,7 +3384,7 @@
 		(dnp no)
 		(uuid "9bcdd517-962b-455b-b623-6dc03eb91ab9")
 		(property "Reference" "#PWR047"
-			(at 83.82 99.06 0)
+			(at 83.82 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3229,7 +3395,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.566 99.568 0)
+			(at 83.82 94.996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3239,7 +3405,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 92.71 0)
+			(at 83.82 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3250,7 +3416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 92.71 0)
+			(at 83.82 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3261,7 +3427,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 92.71 0)
+			(at 83.82 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3293,10 +3459,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b1a43768-ddca-4a8f-822e-0b1c8f30ce82")
 		(property "Reference" "C20"
-			(at 74.93 39.37 0)
+			(at 74.93 41.402 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3306,7 +3471,7 @@
 			)
 		)
 		(property "Value" "C322C104K5R5TA"
-			(at 74.93 41.91 0)
+			(at 74.93 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3426,149 +3591,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MCGPR63V106M5X11:MCGPR63V106M5X11")
-		(at 129.54 69.85 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bcc6b921-b05a-4c6d-9c71-bc4a549eeb52")
-		(property "Reference" "C23"
-			(at 132.842 58.928 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MCGPR63V106M5X11"
-			(at 133.35 62.992 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
-			(at 225.73 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" ""
-			(at 325.73 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "MULTICOMP PRO MCGPR63V106M5X11Electrolytic Capacitor, 10 F, 63 V, +/- 20%, Radial Leaded, 2000 hours @ 85C, Polar"
-			(at 129.54 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "12"
-			(at 525.73 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Farnell Part Number" ""
-			(at 625.73 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Farnell Price/Stock" ""
-			(at 725.73 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Multicomp Pro"
-			(at 825.73 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MCGPR63V106M5X11"
-			(at 925.73 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "102cccac-6b06-459e-8581-edf498ec7a95")
-		)
-		(pin "2"
-			(uuid "9c948099-54e2-4d56-926c-a4ddc6957a10")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318/ed463157-80b7-4a9f-82d4-4d12eed2bec3"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4004")
 		(at 135.89 87.63 0)
 		(unit 1)
@@ -3578,10 +3600,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bd025d61-c647-49d4-bbd8-e5003c8a021f")
 		(property "Reference" "D14"
-			(at 135.89 81.28 0)
+			(at 135.89 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3591,7 +3612,7 @@
 			)
 		)
 		(property "Value" "1N4004"
-			(at 135.89 83.82 0)
+			(at 135.89 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3672,7 +3693,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 93.98 0)
+		(at 157.48 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3682,7 +3703,7 @@
 		(dnp no)
 		(uuid "bd31f5ff-4d3c-45d1-bfae-3780936f38cd")
 		(property "Reference" "#PWR048"
-			(at 157.48 100.33 0)
+			(at 157.48 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3693,7 +3714,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.226 100.838 0)
+			(at 157.48 94.996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3703,7 +3724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 93.98 0)
+			(at 157.48 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3714,7 +3735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 93.98 0)
+			(at 157.48 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3725,7 +3746,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 93.98 0)
+			(at 157.48 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3748,6 +3769,149 @@
 		)
 	)
 	(symbol
+		(lib_id "C322C104K5R5TA:C322C104K5R5TA")
+		(at 115.57 31.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2ac3361-352f-4abb-81a8-9d5934c27200")
+		(property "Reference" "C26"
+			(at 118.364 23.368 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C322C104K5R5TA"
+			(at 118.618 25.908 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 211.76 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1050_GOLDMAX_X7R"
+			(at 311.76 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "GoldMax, Commercial Standard"
+			(at 115.57 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "6.6"
+			(at 511.76 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 611.76 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 711.76 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 811.76 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C322C104K5R5TA"
+			(at 911.76 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "0c55d38e-168d-4c2f-b4f7-8e5b5fa83280")
+		)
+		(pin "2"
+			(uuid "1dad4740-7640-4a90-ad4d-ae1b182954c3")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318/ed463157-80b7-4a9f-82d4-4d12eed2bec3"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 66.04 36.83 0)
 		(unit 1)
@@ -3757,7 +3921,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "df395c8a-b2f6-4de1-aee9-69ec6d325e75")
 		(property "Reference" "#PWR045"
 			(at 66.04 43.18 0)
@@ -3771,7 +3934,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 41.91 0)
+			(at 66.04 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3820,6 +3983,149 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318/ed463157-80b7-4a9f-82d4-4d12eed2bec3"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCGPR63V106M5X11:MCGPR63V106M5X11")
+		(at 129.54 57.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e2199ae0-3225-4fc7-bc3a-98be4a0ba9f6")
+		(property "Reference" "C23"
+			(at 136.144 61.976 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MCGPR63V106M5X11"
+			(at 152.4 64.262 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+			(at 33.35 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" ""
+			(at -66.65 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MULTICOMP PRO MCGPR63V106M5X11Electrolytic Capacitor, 10 F, 63 V, +/- 20%, Radial Leaded, 2000 hours @ 85C, Polar"
+			(at 129.54 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "12"
+			(at -266.65 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at -366.65 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at -466.65 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at -566.65 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCGPR63V106M5X11"
+			(at -666.65 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "100a25e1-7a26-4497-a665-9eab0beb4fb4")
+		)
+		(pin "2"
+			(uuid "577240f0-979f-49fe-9907-6ded4002909e")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318/ed463157-80b7-4a9f-82d4-4d12eed2bec3"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3928,8 +4234,8 @@
 		)
 	)
 	(symbol
-		(lib_id "C322C104K5R5TA:C322C104K5R5TA")
-		(at 69.85 36.83 0)
+		(lib_id "power:GND")
+		(at 127 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3937,10 +4243,86 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(uuid "f0b4efa4-4378-49a3-9b96-d6cf4a3e3431")
+		(property "Reference" "#PWR072"
+			(at 127 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 36.576 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc865363-85d2-4fda-9ccf-409c05fbbd36")
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/04007180-46fe-4cf0-9e6f-a7d321798318/ed463157-80b7-4a9f-82d4-4d12eed2bec3"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C322C104K5R5TA:C322C104K5R5TA")
+		(at 68.58 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "f77b9a77-a3c5-4a26-ad56-0ce3cd5f26e7")
 		(property "Reference" "C21"
-			(at 76.2 29.21 0)
+			(at 74.93 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3950,7 +4332,7 @@
 			)
 		)
 		(property "Value" "C322C104K5R5TA"
-			(at 76.2 31.75 0)
+			(at 73.66 32.512 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3960,7 +4342,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 78.74 133.02 0)
+			(at 77.47 133.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3972,7 +4354,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1050_GOLDMAX_X7R"
-			(at 78.74 233.02 0)
+			(at 77.47 233.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3984,7 +4366,7 @@
 			)
 		)
 		(property "Description" "GoldMax, Commercial Standard"
-			(at 69.85 36.83 0)
+			(at 68.58 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3995,7 +4377,7 @@
 			)
 		)
 		(property "Height" "6.6"
-			(at 78.74 433.02 0)
+			(at 77.47 433.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4007,7 +4389,7 @@
 			)
 		)
 		(property "Farnell Part Number" ""
-			(at 78.74 533.02 0)
+			(at 77.47 533.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4019,7 +4401,7 @@
 			)
 		)
 		(property "Farnell Price/Stock" ""
-			(at 78.74 633.02 0)
+			(at 77.47 633.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4031,7 +4413,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo Group"
-			(at 78.74 733.02 0)
+			(at 77.47 733.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4043,7 +4425,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C322C104K5R5TA"
-			(at 78.74 833.02 0)
+			(at 77.47 833.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4079,10 +4461,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fec9dd6a-ccb7-4575-9c98-f41a280b15c6")
 		(property "Reference" "R35"
-			(at 135.89 36.83 0)
+			(at 136.144 40.132 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4093,6 +4474,7 @@
 		)
 		(property "Value" "MF25_10K"
 			(at 135.89 39.37 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

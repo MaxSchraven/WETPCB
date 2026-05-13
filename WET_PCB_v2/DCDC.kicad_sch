@@ -714,59 +714,41 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "check if this is even the right driver\n\n"
-		(exclude_from_sim no)
-		(at 91.186 86.106 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5d41edfc-f2ae-4245-824c-834705654245")
-	)
-	(text "the cap footprints are random im not sure which ones to use and if we should add more caps"
-		(exclude_from_sim no)
-		(at 90.17 92.202 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "897692e6-6de0-404b-a039-7961980ff560")
-	)
-	(text "is one cap at in and out enough or do we want to add more (we can leave them empty anyway)"
-		(exclude_from_sim no)
-		(at 116.078 75.692 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "df5628eb-b7f1-4a5e-a31e-aa7f5d9092aa")
-	)
 	(junction
-		(at 175.26 64.77)
+		(at 165.1 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2029aca7-37ef-49c7-a0e0-054d07746623")
+		(uuid "0f8fcadc-b559-4894-ba06-e988fcef3f78")
+	)
+	(junction
+		(at 91.44 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17de4b77-66a2-40dc-b653-62e2d759e79d")
+	)
+	(junction
+		(at 72.39 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d9596f1-f2f6-4c6b-ad32-6416d4e8ca26")
+	)
+	(junction
+		(at 105.41 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ad51f69-96eb-47f2-9b4a-f761b3253794")
 	)
 	(junction
 		(at 54.61 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "275224d7-e489-4cd0-83d4-2fbedadf268c")
+		(uuid "5ced5133-cd87-462f-931a-3743b5837b7a")
 	)
 	(junction
-		(at 175.26 46.99)
+		(at 165.1 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4214418c-9aed-4c4b-bef4-079123ed168d")
-	)
-	(junction
-		(at 175.26 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5330b78a-dd2d-4e4b-aa63-31415f5b76c9")
+		(uuid "697628ef-9fbf-496f-97ff-81a38380523f")
 	)
 	(junction
 		(at 91.44 68.58)
@@ -775,10 +757,10 @@
 		(uuid "6cf0469f-be8c-47f0-931a-fe06bc1f4a96")
 	)
 	(junction
-		(at 105.41 43.18)
+		(at 184.15 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7b5b7692-0c33-49c7-9241-d1b46d912be3")
+		(uuid "9a70ae4b-54d1-419b-9657-1f5c7714e829")
 	)
 	(junction
 		(at 72.39 68.58)
@@ -804,16 +786,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 46.99) (xy 175.26 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "039eae0f-2e0b-43da-a040-fd8b0b1f668b")
-	)
-	(wire
-		(pts
 			(xy 99.06 63.5) (xy 99.06 59.69)
 		)
 		(stroke
@@ -834,16 +806,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 43.18) (xy 179.07 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11bce040-2f48-4b6c-bdc7-f302299a943c")
-	)
-	(wire
-		(pts
 			(xy 105.41 43.18) (xy 105.41 52.07)
 		)
 		(stroke
@@ -851,6 +813,26 @@
 			(type default)
 		)
 		(uuid "16d94c63-4c88-47d2-a460-527a5da91cc9")
+	)
+	(wire
+		(pts
+			(xy 87.63 43.18) (xy 91.44 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "187b5e9f-291b-492e-afdc-8a20850ad8a3")
+	)
+	(wire
+		(pts
+			(xy 184.15 43.18) (xy 187.96 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cdd32c4-0f33-4f96-a758-9fa1da997516")
 	)
 	(wire
 		(pts
@@ -864,7 +846,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 68.58) (xy 175.26 68.58)
+			(xy 91.44 68.58) (xy 165.1 68.58)
 		)
 		(stroke
 			(width 0)
@@ -881,26 +863,6 @@
 			(type default)
 		)
 		(uuid "37beddb6-211c-4dbb-8df2-5928fd854ed6")
-	)
-	(wire
-		(pts
-			(xy 175.26 64.77) (xy 175.26 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a9f1d72-921c-4d9b-a69b-fd9937f8b469")
-	)
-	(wire
-		(pts
-			(xy 91.44 43.18) (xy 91.44 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3baebc70-427f-4744-9146-2d65e5107417")
 	)
 	(wire
 		(pts
@@ -924,16 +886,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 52.07) (xy 72.39 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "615a34df-5a1c-47fa-b747-f1cfc9091020")
-	)
-	(wire
-		(pts
 			(xy 72.39 59.69) (xy 72.39 68.58)
 		)
 		(stroke
@@ -941,6 +893,16 @@
 			(type default)
 		)
 		(uuid "68e30a47-9360-4636-9f1c-28d2fa60f8f4")
+	)
+	(wire
+		(pts
+			(xy 184.15 43.18) (xy 184.15 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a71aafb-b753-4711-be36-96991fb7039e")
 	)
 	(wire
 		(pts
@@ -974,13 +936,23 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 43.18) (xy 175.26 46.99)
+			(xy 91.44 43.18) (xy 91.44 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84ba7f3c-5af7-4f82-9be4-55f1c619c5ae")
+		(uuid "7ad1ee38-9671-4ec0-b5aa-86b131cc5864")
+	)
+	(wire
+		(pts
+			(xy 165.1 59.69) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828f121a-0869-4008-8bf9-55085e55a1da")
 	)
 	(wire
 		(pts
@@ -994,16 +966,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 52.07) (xy 194.31 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a8a011c-3bf1-4a35-9570-46c5b53e2229")
-	)
-	(wire
-		(pts
 			(xy 119.38 50.8) (xy 109.22 50.8)
 		)
 		(stroke
@@ -1011,6 +973,16 @@
 			(type default)
 		)
 		(uuid "8d0a4335-7c10-4db9-a4eb-2d7802d3be3c")
+	)
+	(wire
+		(pts
+			(xy 72.39 43.18) (xy 76.2 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "900b0314-9352-42e5-9f7a-eaec2cff1b5c")
 	)
 	(wire
 		(pts
@@ -1024,7 +996,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 64.77) (xy 175.26 64.77)
+			(xy 165.1 68.58) (xy 184.15 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1064,33 +1036,43 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 59.69) (xy 175.26 64.77)
+			(xy 165.1 43.18) (xy 184.15 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abeb9a4d-d10d-4508-b45d-a64d87f4bc9c")
+		(uuid "b2735880-1b07-4670-b7a0-735dbf51a991")
 	)
 	(wire
 		(pts
-			(xy 194.31 46.99) (xy 175.26 46.99)
+			(xy 165.1 43.18) (xy 165.1 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1f32d4c-c113-486d-804e-3b1ea310167d")
+		(uuid "b7ff5e8f-59d7-4f6f-ba7a-cd8c8f40496f")
 	)
 	(wire
 		(pts
-			(xy 194.31 59.69) (xy 194.31 64.77)
+			(xy 184.15 59.69) (xy 184.15 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d8ac4ca7-915b-4af5-bed0-d9d63f67f2ab")
+	)
+	(wire
+		(pts
+			(xy 72.39 43.18) (xy 72.39 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2106c9e-c573-4d09-ad7b-79c7f86e9462")
 	)
 	(wire
 		(pts
@@ -1134,7 +1116,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 43.18) (xy 175.26 43.18)
+			(xy 124.46 43.18) (xy 165.1 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1163,6 +1145,17 @@
 			(justify left)
 		)
 		(uuid "26a5a0fe-3dd2-4437-a32f-b83f0ae14e7f")
+	)
+	(hierarchical_label "currsense_FET_side"
+		(shape input)
+		(at 87.63 43.18 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4744c9d1-c702-4fe6-8c02-3e9ccc6885f1")
 	)
 	(hierarchical_label "VCC_Driver_DCDC"
 		(shape input)
@@ -1199,7 +1192,7 @@
 	)
 	(hierarchical_label "VoutDCDC"
 		(shape input)
-		(at 179.07 43.18 0)
+		(at 187.96 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1219,17 +1212,6 @@
 		)
 		(uuid "ca15df44-422c-4e41-aa86-d0f885c5aba9")
 	)
-	(hierarchical_label "currsense_FET_side"
-		(shape input)
-		(at 91.44 43.18 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ce546802-a011-4aab-876d-e74c3295abd6")
-	)
 	(hierarchical_label "Vin_DCDC+"
 		(shape input)
 		(at 40.64 43.18 180)
@@ -1243,7 +1225,7 @@
 	)
 	(hierarchical_label "currsense_cap_side"
 		(shape input)
-		(at 72.39 43.18 90)
+		(at 76.2 43.18 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1265,7 +1247,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 175.26 55.88 0)
+		(at 165.1 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1276,7 +1258,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fa919b5-17ad-48a8-958d-74ddf42b9a8b")
 		(property "Reference" "C18"
-			(at 179.07 53.7209 0)
+			(at 168.91 53.7209 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1287,7 +1269,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 179.07 56.2609 0)
+			(at 168.91 56.2609 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1298,7 +1280,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm"
-			(at 176.2252 59.69 0)
+			(at 166.0652 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1309,7 +1291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 55.88 0)
+			(at 165.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1320,7 +1302,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 175.26 55.88 0)
+			(at 165.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1347,7 +1329,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Heatsink")
-		(at 119.38 34.29 0)
+		(at 58.42 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1358,7 +1340,7 @@
 		(fields_autoplaced yes)
 		(uuid "1dd92777-5c2e-4196-810c-f68837eb6450")
 		(property "Reference" "HS6"
-			(at 123.19 31.1149 0)
+			(at 62.23 83.1849 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1369,7 +1351,7 @@
 			)
 		)
 		(property "Value" "Heatsink"
-			(at 123.19 33.6549 0)
+			(at 62.23 85.7249 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1380,7 +1362,7 @@
 			)
 		)
 		(property "Footprint" "Heatsink:Heatsink_AAVID_Extruded_531002B02100G_34.9x12.7mm_H25.4mm"
-			(at 119.6848 34.29 0)
+			(at 58.7248 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1391,7 +1373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.6848 34.29 0)
+			(at 58.7248 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1402,7 +1384,7 @@
 			)
 		)
 		(property "Description" "Heatsink"
-			(at 119.38 34.29 0)
+			(at 58.42 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1423,7 +1405,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 194.31 55.88 0)
+		(at 184.15 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1434,7 +1416,7 @@
 		(fields_autoplaced yes)
 		(uuid "36b1d420-d704-4219-b402-b92909032d92")
 		(property "Reference" "C19"
-			(at 198.12 53.7209 0)
+			(at 187.96 53.7209 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1445,7 +1427,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 198.12 56.2609 0)
+			(at 187.96 56.2609 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1456,7 +1438,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm"
-			(at 195.2752 59.69 0)
+			(at 185.1152 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1467,7 +1449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 55.88 0)
+			(at 184.15 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1478,7 +1460,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 194.31 55.88 0)
+			(at 184.15 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1605,7 +1587,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS_GDS"
-			(at 87.63 58.4201 0)
+			(at 87.376 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1915,7 +1897,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Heatsink")
-		(at 102.87 34.29 0)
+		(at 41.91 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1926,7 +1908,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec875461-b737-41de-ab28-3a72cfb1bc34")
 		(property "Reference" "HS5"
-			(at 106.68 31.1149 0)
+			(at 45.72 83.1849 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1937,7 +1919,7 @@
 			)
 		)
 		(property "Value" "Heatsink"
-			(at 106.68 33.6549 0)
+			(at 45.72 85.7249 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1948,7 +1930,7 @@
 			)
 		)
 		(property "Footprint" "Heatsink:Heatsink_AAVID_Extruded_531002B02100G_34.9x12.7mm_H25.4mm"
-			(at 103.1748 34.29 0)
+			(at 42.2148 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1959,7 +1941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 103.1748 34.29 0)
+			(at 42.2148 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1970,7 +1952,7 @@
 			)
 		)
 		(property "Description" "Heatsink"
-			(at 102.87 34.29 0)
+			(at 41.91 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2005,7 +1987,7 @@
 		)
 		(uuid "ed463157-80b7-4a9f-82d4-4d12eed2bec3")
 		(property "Sheetname" "Gatedriver"
-			(at 102.362 61.722 90)
+			(at 102.87 66.802 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2017,6 +1999,7 @@
 		)
 		(property "Sheetfile" "GateDriver.kicad_sch"
 			(at 102.87 65.3546 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
