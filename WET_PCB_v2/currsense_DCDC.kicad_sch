@@ -1823,7 +1823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e846d6d-9d51-4e7c-9fdf-39f7b34d6438")
-		(property "Reference" "R60"
+		(property "Reference" "JMP22"
 			(at 102.87 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1885,11 +1885,11 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/12f67741-eb23-4832-9e03-479bbedcb04e"
-					(reference "R60")
+					(reference "JMP22")
 					(unit 1)
 				)
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/6ecc05b2-84d4-404f-84e6-8cc19742ad68"
-					(reference "R61")
+					(reference "JMP23")
 					(unit 1)
 				)
 			)

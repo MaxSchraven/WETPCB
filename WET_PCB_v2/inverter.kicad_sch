@@ -6947,7 +6947,7 @@
 				)
 			)
 		)
-		(property "Value" "B32529C1104K000"
+		(property "Value" "C_inv_out"
 			(at 147.32 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7245,7 +7245,7 @@
 				)
 			)
 		)
-		(property "Value" "B32529C1104K000"
+		(property "Value" "C_inv_out"
 			(at 147.32 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7387,7 +7387,7 @@
 				)
 			)
 		)
-		(property "Value" "B32529C1104K000"
+		(property "Value" "C_inv_out"
 			(at 147.32 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -8585,7 +8585,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "C_inv_out"
 			(at 147.32 48.26 90)
 			(hide yes)
 			(show_name no)

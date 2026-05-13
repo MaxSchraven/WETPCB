@@ -2440,7 +2440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4f89190-1fab-4dba-9ff0-4b1ca176d4b1")
-		(property "Reference" "R42"
+		(property "Reference" "JMP20"
 			(at 83.82 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2502,7 +2502,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a17383a4-d27f-4c25-9e0c-b0df1856b8d8"
-					(reference "R42")
+					(reference "JMP20")
 					(unit 1)
 				)
 			)
@@ -2520,7 +2520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe720364-74af-4eea-a7e6-e2feb0f7a97f")
-		(property "Reference" "R9"
+		(property "Reference" "JMP21"
 			(at 116.84 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2582,7 +2582,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a17383a4-d27f-4c25-9e0c-b0df1856b8d8"
-					(reference "R9")
+					(reference "JMP21")
 					(unit 1)
 				)
 			)

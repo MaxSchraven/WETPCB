@@ -2191,6 +2191,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "R_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_1_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "WET:WET_Token_10"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5506,7 +5646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08270d84-109c-4180-bc9d-64eb9e173a7e")
-		(property "Reference" "R15"
+		(property "Reference" "JMP10"
 			(at 215.9 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5570,7 +5710,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R15")
+					(reference "JMP10")
 					(unit 1)
 				)
 			)
@@ -5665,7 +5805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e99927c-5326-4ebe-b643-7a7e4396ae96")
-		(property "Reference" "R20"
+		(property "Reference" "JMP16"
 			(at 232.41 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5729,7 +5869,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R20")
+					(reference "JMP16")
 					(unit 1)
 				)
 			)
@@ -6118,7 +6258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e90263e-c4d4-4012-bb35-3dc10cc242de")
-		(property "Reference" "R19"
+		(property "Reference" "JMP14"
 			(at 229.87 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6182,7 +6322,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R19")
+					(reference "JMP14")
 					(unit 1)
 				)
 			)
@@ -7151,7 +7291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cc7f3e9-c2a4-46ef-a4f6-c52cd0a4f920")
-		(property "Reference" "R18"
+		(property "Reference" "JMP13"
 			(at 227.33 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7215,7 +7355,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R18")
+					(reference "JMP13")
 					(unit 1)
 				)
 			)
@@ -7386,7 +7526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "671d266b-5e22-4943-ba61-7bebce1a66ac")
-		(property "Reference" "R3"
+		(property "Reference" "JMP1"
 			(at 152.4 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7450,7 +7590,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R3")
+					(reference "JMP1")
 					(unit 1)
 				)
 			)
@@ -7468,7 +7608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67fd44e7-b24a-4b90-89c3-ac053b7cb820")
-		(property "Reference" "R64"
+		(property "Reference" "JMP15"
 			(at 228.6 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7530,7 +7670,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R64")
+					(reference "JMP15")
 					(unit 1)
 				)
 			)
@@ -7797,7 +7937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7853635f-4f30-4803-a75c-581fe0f94eed")
-		(property "Reference" "R62"
+		(property "Reference" "JMP8"
 			(at 209.55 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7859,7 +7999,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R62")
+					(reference "JMP8")
 					(unit 1)
 				)
 			)
@@ -8323,7 +8463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87f3c9cc-670e-431b-9b52-1a8de60d5c80")
-		(property "Reference" "R17"
+		(property "Reference" "JMP12"
 			(at 220.98 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8387,7 +8527,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R17")
+					(reference "JMP12")
 					(unit 1)
 				)
 			)
@@ -8485,7 +8625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ac75469-b20c-4e10-9ba9-8e5febc4065f")
-		(property "Reference" "R5"
+		(property "Reference" "JMP2"
 			(at 160.02 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8549,7 +8689,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R5")
+					(reference "JMP2")
 					(unit 1)
 				)
 			)
@@ -8634,6 +8774,7 @@
 		)
 	)
 	(symbol
+		(lib_name "R_1")
 		(lib_id "Device:R")
 		(at 175.26 83.82 0)
 		(unit 1)
@@ -8645,7 +8786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9469a157-27c0-484b-9154-ccdb275c0b7c")
-		(property "Reference" "R8"
+		(property "Reference" "JMP5"
 			(at 177.8 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8709,7 +8850,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R8")
+					(reference "JMP5")
 					(unit 1)
 				)
 			)
@@ -9294,7 +9435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a595794b-3717-459d-a9fc-7d403205ae44")
-		(property "Reference" "R16"
+		(property "Reference" "JMP11"
 			(at 218.44 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9358,7 +9499,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R16")
+					(reference "JMP11")
 					(unit 1)
 				)
 			)
@@ -9376,7 +9517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6097bb9-5fa1-4c41-9e09-386ea02c1049")
-		(property "Reference" "R65"
+		(property "Reference" "JMP17"
 			(at 231.14 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9438,7 +9579,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R65")
+					(reference "JMP17")
 					(unit 1)
 				)
 			)
@@ -9549,7 +9690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae1d35a4-ac7b-45e2-beb6-ffda63284d54")
-		(property "Reference" "R7"
+		(property "Reference" "JMP4"
 			(at 175.26 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9613,7 +9754,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R7")
+					(reference "JMP4")
 					(unit 1)
 				)
 			)
@@ -10108,7 +10249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb8664e1-b64a-42bf-9103-5556bc3acf3b")
-		(property "Reference" "R12"
+		(property "Reference" "JMP6"
 			(at 184.15 53.3876 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10172,7 +10313,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R12")
+					(reference "JMP6")
 					(unit 1)
 				)
 			)
@@ -10190,7 +10331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd5d391a-9623-4215-8ee2-07210882f6d8")
-		(property "Reference" "R14"
+		(property "Reference" "JMP7"
 			(at 191.77 53.3401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10254,7 +10395,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R14")
+					(reference "JMP7")
 					(unit 1)
 				)
 			)
@@ -10508,7 +10649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9aefd4d-65e4-49f2-bcac-f20fb9fe09a0")
-		(property "Reference" "R6"
+		(property "Reference" "JMP3"
 			(at 172.72 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10572,7 +10713,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R6")
+					(reference "JMP3")
 					(unit 1)
 				)
 			)
@@ -11138,7 +11279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec356e9e-affb-4270-ab5a-812daca3e7e0")
-		(property "Reference" "R63"
+		(property "Reference" "JMP9"
 			(at 212.09 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11200,7 +11341,7 @@
 		(instances
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "R63")
+					(reference "JMP9")
 					(unit 1)
 				)
 			)

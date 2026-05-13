@@ -681,6 +681,18 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -731,7 +743,7 @@
         "uuid": "13451c35-1666-47d9-9525-8d8125ba1cf3"
       }
     ],
-    "used_designators": "J37",
+    "used_designators": "J37,JMP1-24",
     "variants": []
   },
   "sheets": [
