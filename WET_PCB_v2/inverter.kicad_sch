@@ -5,220 +5,6 @@
 	(uuid "ba02e0c3-3b09-4f16-8b19-fbee9d907422")
 	(paper "A4")
 	(lib_symbols
-		(symbol "B32529C1104K000:B32529C1104K000"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 8.89 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "B32529C1104K000"
-				(at 8.89 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "B32529C1104K000"
-				(at 8.89 -96.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkt/data_sheet/20/20/db/fc_2009/b32520_529.pdf"
-				(at 8.89 -196.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "EPCOS - B32529C1104K000 - General Purpose Film Capacitor, Metallized PET Stacked, Radial Box - 2 Pin, 0.1 F, +/- 10%, 63 V//"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "6.5"
-				(at 8.89 -396.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Farnell Part Number" ""
-				(at 8.89 -496.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Farnell Price/Stock" ""
-				(at 8.89 -596.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "TDK"
-				(at 8.89 -696.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "B32529C1104K000"
-				(at 8.89 -796.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "B32529C1104K000_1_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.588 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 2.54) (xy 5.588 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 2.54) (xy 7.112 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "C322C104K5R5TA:C322C104K5R5TA"
 			(pin_names
 				(hide yes)
@@ -416,161 +202,6 @@
 					(at 12.7 0 180)
 					(length 5.08)
 					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2392,18 +2023,6 @@
 		(uuid "24492e83-b2ee-44dc-8872-80955637420d")
 	)
 	(junction
-		(at 153.67 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28a1a4cd-ce26-48c4-ab6b-0f521fb1f9fa")
-	)
-	(junction
-		(at 140.97 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2be3c300-5a05-478c-9fbd-a325aebca112")
-	)
-	(junction
 		(at 147.32 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2414,24 +2033,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36004ff7-262c-48c8-8a9c-dcb0e581b32a")
-	)
-	(junction
-		(at 140.97 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e8a6e37-f5c9-48ed-a242-0249378e3a82")
-	)
-	(junction
-		(at 153.67 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46acc6c0-00d4-42c4-b94c-d8fba49b88c4")
-	)
-	(junction
-		(at 153.67 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4be1f03f-9b07-4d8d-98cb-514db8c8eb56")
 	)
 	(junction
 		(at 106.68 114.3)
@@ -2450,12 +2051,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "560d3e2e-dc05-470e-ba2e-6eb84a60e26b")
-	)
-	(junction
-		(at 153.67 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59b97a6f-3532-46b4-be76-f7a6596efd82")
 	)
 	(junction
 		(at 64.77 49.53)
@@ -2536,12 +2131,6 @@
 		(uuid "966bcde5-6496-4416-b40f-f6e2dd2d5e97")
 	)
 	(junction
-		(at 140.97 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9eac9267-da99-4578-ad20-a83113c13cda")
-	)
-	(junction
 		(at 196.85 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2600,12 +2189,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0e45bb4-d46f-460d-b2e2-81b9de76a9a4")
-	)
-	(junction
-		(at 140.97 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1236752-db92-4f9a-a245-d3fa5e437f05")
 	)
 	(junction
 		(at 44.45 74.93)
@@ -2873,7 +2456,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 67.31) (xy 140.97 74.93)
+			(xy 140.97 66.04) (xy 140.97 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2903,7 +2486,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 66.04) (xy 153.67 67.31)
+			(xy 153.67 66.04) (xy 153.67 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3023,16 +2606,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 53.34) (xy 143.51 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53ba9fe2-04f1-494b-b4fc-60ee0d46b6e5")
-	)
-	(wire
-		(pts
 			(xy 69.85 127) (xy 83.82 127)
 		)
 		(stroke
@@ -3113,16 +2686,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 53.34) (xy 153.67 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62242b22-dec8-44d1-af03-1daad880bd5b")
-	)
-	(wire
-		(pts
 			(xy 252.73 29.21) (xy 250.19 29.21)
 		)
 		(stroke
@@ -3183,16 +2746,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 74.93) (xy 153.67 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cc5940c-50b3-4dc2-96a6-9264b06d92bb")
-	)
-	(wire
-		(pts
 			(xy 91.44 77.47) (xy 97.79 77.47)
 		)
 		(stroke
@@ -3230,16 +2783,6 @@
 			(type default)
 		)
 		(uuid "73ccc317-3a57-43fe-a54e-267dba4c0479")
-	)
-	(wire
-		(pts
-			(xy 153.67 67.31) (xy 153.67 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7571559c-0d47-4f13-90de-a326722a2dd9")
 	)
 	(wire
 		(pts
@@ -3533,16 +3076,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 82.55) (xy 153.67 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8eff439-caf3-4933-994c-8f0371ed9626")
-	)
-	(wire
-		(pts
 			(xy 147.32 17.78) (xy 147.32 25.4)
 		)
 		(stroke
@@ -3580,16 +3113,6 @@
 			(type default)
 		)
 		(uuid "c075c34a-ed3f-44c0-a0d6-d72edb209b7a")
-	)
-	(wire
-		(pts
-			(xy 140.97 66.04) (xy 140.97 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1b22d15-a674-41ea-845d-29bcd8464954")
 	)
 	(wire
 		(pts
@@ -3833,16 +3356,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 82.55) (xy 140.97 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc97dde7-7410-4821-8c03-32e78eeb8248")
-	)
-	(wire
-		(pts
 			(xy 120.65 64.77) (xy 120.65 67.31)
 		)
 		(stroke
@@ -4010,16 +3523,6 @@
 			(type default)
 		)
 		(uuid "fd9785c5-c1ac-4ed0-9749-6676dae62808")
-	)
-	(wire
-		(pts
-			(xy 140.97 74.93) (xy 140.97 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe4d7dbc-e3a0-4c02-8cd9-3b71cbf5e675")
 	)
 	(label "VCC_Inverter"
 		(at 55.88 64.77 0)
@@ -7274,148 +6777,6 @@
 		)
 	)
 	(symbol
-		(lib_id "B32529C1104K000:B32529C1104K000")
-		(at 140.97 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "76c65726-3ac5-44e9-af20-4a441ce3c507")
-		(property "Reference" "C8"
-			(at 147.32 70.866 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C_inv_out"
-			(at 147.32 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
-			(at 149.86 163.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkt/data_sheet/20/20/db/fc_2009/b32520_529.pdf"
-			(at 149.86 263.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "EPCOS - B32529C1104K000 - General Purpose Film Capacitor, Metallized PET Stacked, Radial Box - 2 Pin, 0.1 F, +/- 10%, 63 V//"
-			(at 140.97 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "6.5"
-			(at 149.86 463.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Farnell Part Number" ""
-			(at 149.86 563.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Farnell Price/Stock" ""
-			(at 149.86 663.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "TDK"
-			(at 149.86 763.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B32529C1104K000"
-			(at 149.86 863.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "e5ce7489-2276-4537-90ec-d70d024a7418")
-		)
-		(pin "2"
-			(uuid "8cf538af-e164-4ebf-a5cb-28428eee3b7a")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 267.97 29.21 0)
 		(mirror y)
@@ -7709,290 +7070,6 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "B32529C1104K000:B32529C1104K000")
-		(at 140.97 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "893779f4-6540-4ab4-b5ca-b23a16839875")
-		(property "Reference" "C9"
-			(at 147.32 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C_inv_out"
-			(at 147.32 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L24.0mm_W12.8mm_P22.50mm_MKT"
-			(at 149.86 171.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkt/data_sheet/20/20/db/fc_2009/b32520_529.pdf"
-			(at 149.86 271.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "EPCOS - B32529C1104K000 - General Purpose Film Capacitor, Metallized PET Stacked, Radial Box - 2 Pin, 0.1 F, +/- 10%, 63 V//"
-			(at 140.97 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "6.5"
-			(at 149.86 471.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Farnell Part Number" ""
-			(at 149.86 571.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Farnell Price/Stock" ""
-			(at 149.86 671.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "TDK"
-			(at 149.86 771.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B32529C1104K000"
-			(at 149.86 871.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "4b2f095f-e61f-4487-b70f-70ce4dd22784")
-		)
-		(pin "2"
-			(uuid "fe3ba9ba-1b4c-4f7b-9eda-206476ce754e")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "B32529C1104K000:B32529C1104K000")
-		(at 140.97 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8d2b43f4-fbe5-4fda-92bc-bea53cc210ae")
-		(property "Reference" "C10"
-			(at 147.066 86.106 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C_inv_out"
-			(at 147.32 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_THT:L_Axial_L23.4mm_D12.7mm_P32.00mm_Horizontal_Vishay_IHA-203"
-			(at 149.86 178.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkt/data_sheet/20/20/db/fc_2009/b32520_529.pdf"
-			(at 149.86 278.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "EPCOS - B32529C1104K000 - General Purpose Film Capacitor, Metallized PET Stacked, Radial Box - 2 Pin, 0.1 F, +/- 10%, 63 V//"
-			(at 140.97 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "6.5"
-			(at 149.86 478.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Farnell Part Number" ""
-			(at 149.86 578.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Farnell Price/Stock" ""
-			(at 149.86 678.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "TDK"
-			(at 149.86 778.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B32529C1104K000"
-			(at 149.86 878.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "e485d95a-0766-4031-b858-1c09bb5395af")
-		)
-		(pin "2"
-			(uuid "ca61d9d3-d6d6-4a55-977c-725991541d16")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9336,86 +8413,6 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 147.32 53.34 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f22feadf-78a2-45dc-836d-617909d9fce8")
-		(property "Reference" "C11"
-			(at 147.32 57.912 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C_inv_out"
-			(at 147.32 48.26 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L32.0mm_W15.0mm_P27.00mm"
-			(at 151.13 52.3748 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 147.32 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "42317ed5-97b8-47ab-85fb-daa8d7989481")
-		)
-		(pin "1"
-			(uuid "01f7e617-b47c-4ea7-afc3-744f7268d6b9")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3/a035cbd1-b4bf-441e-99d9-9f1401ee5bfe"
-					(reference "C11")
 					(unit 1)
 				)
 			)

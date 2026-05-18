@@ -3856,12 +3856,6 @@
 		(uuid "1686acaa-e848-4b56-800a-e8aa3f2abd70")
 	)
 	(junction
-		(at 261.62 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b089211-cf10-4bd4-a7a3-06bce41ee40a")
-	)
-	(junction
 		(at 36.83 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4113,12 +4107,6 @@
 		(color 0 0 0 0)
 		(uuid "fa13b6d8-4419-471f-b4a0-5bcd51b5d117")
 	)
-	(junction
-		(at 259.08 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fee0d501-77f9-4b13-a19c-9b6ecc3e01d7")
-	)
 	(wire
 		(pts
 			(xy 129.54 156.21) (xy 135.89 156.21)
@@ -4178,16 +4166,6 @@
 			(type default)
 		)
 		(uuid "0a9491fa-a167-402c-a4c2-0c72985afd77")
-	)
-	(wire
-		(pts
-			(xy 259.08 53.34) (xy 259.08 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d5ecd20-451c-4060-ae93-fae7040d4375")
 	)
 	(wire
 		(pts
@@ -4271,7 +4249,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 134.62) (xy 232.41 134.62)
+			(xy 229.87 137.16) (xy 232.41 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4498,16 +4476,6 @@
 			(type default)
 		)
 		(uuid "42a6ca78-3071-41cc-978b-371fa8401134")
-	)
-	(wire
-		(pts
-			(xy 261.62 48.26) (xy 261.62 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43d5510a-b59b-45f2-98a6-f50125db195b")
 	)
 	(wire
 		(pts
@@ -4751,7 +4719,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 50.8) (xy 265.43 50.8)
+			(xy 254 50.8) (xy 265.43 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4931,7 +4899,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 153.67) (xy 228.6 153.67)
+			(xy 232.41 156.21) (xy 228.6 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5028,16 +4996,6 @@
 			(type default)
 		)
 		(uuid "9328a949-3ad5-4fcf-a561-7768ba15b955")
-	)
-	(wire
-		(pts
-			(xy 265.43 48.26) (xy 261.62 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "933b941a-d7f2-4b6c-bab0-3d3c7c9f5977")
 	)
 	(wire
 		(pts
@@ -5331,7 +5289,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 149.86) (xy 232.41 149.86)
+			(xy 229.87 152.4) (xy 232.41 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5521,16 +5479,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 50.8) (xy 254 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8c61c9b-776f-4624-973a-50e6a4f5cf0e")
-	)
-	(wire
-		(pts
 			(xy 129.54 158.75) (xy 135.89 158.75)
 		)
 		(stroke
@@ -5561,7 +5509,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 48.26) (xy 254 48.26)
+			(xy 254 48.26) (xy 265.43 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7286,7 +7234,7 @@
 	)
 	(symbol
 		(lib_id "Auxiliary_Items:MountingScrew")
-		(at 153.67 177.8 0)
+		(at 158.75 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7297,7 +7245,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ce7a1fd-a839-4383-abaf-74e3a38ed76f")
 		(property "Reference" "H2"
-			(at 153.67 173.736 0)
+			(at 158.75 173.736 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7308,7 +7256,7 @@
 			)
 		)
 		(property "Value" "MountingScrew"
-			(at 153.67 181.356 0)
+			(at 158.75 181.356 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7319,7 +7267,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
-			(at 153.67 177.8 0)
+			(at 158.75 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7330,7 +7278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 177.8 0)
+			(at 158.75 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7341,7 +7289,7 @@
 			)
 		)
 		(property "Description" "Mounting screw"
-			(at 153.67 177.8 0)
+			(at 158.75 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8400,7 +8348,7 @@
 	)
 	(symbol
 		(lib_id "power:VPP")
-		(at 229.87 134.62 0)
+		(at 229.87 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8410,7 +8358,7 @@
 		(dnp no)
 		(uuid "5f123c4a-c81e-4068-8558-2840aaa9314c")
 		(property "Reference" "#PWR016"
-			(at 229.87 138.43 0)
+			(at 229.87 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8421,7 +8369,7 @@
 			)
 		)
 		(property "Value" "VPP"
-			(at 226.822 133.35 0)
+			(at 229.87 133.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8431,7 +8379,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 134.62 0)
+			(at 229.87 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8442,7 +8390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 134.62 0)
+			(at 229.87 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8453,7 +8401,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VPP\""
-			(at 229.87 134.62 0)
+			(at 229.87 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8477,7 +8425,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 223.52 153.67 0)
+		(at 223.52 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8487,7 +8435,7 @@
 		(dnp no)
 		(uuid "650a2a09-71c5-4a98-ba86-e242ab92384a")
 		(property "Reference" "J5"
-			(at 221.742 154.178 0)
+			(at 221.742 156.718 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8497,7 +8445,7 @@
 			)
 		)
 		(property "Value" "Vsense_ADC1_IN1"
-			(at 223.52 155.702 0)
+			(at 223.52 158.242 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8507,7 +8455,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
-			(at 223.52 153.67 0)
+			(at 223.52 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8518,7 +8466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 153.67 0)
+			(at 223.52 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8529,7 +8477,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 223.52 153.67 0)
+			(at 223.52 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8960,7 +8908,7 @@
 	)
 	(symbol
 		(lib_id "Auxiliary_Items:MountingScrew")
-		(at 161.29 177.8 0)
+		(at 166.37 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8971,7 +8919,7 @@
 		(fields_autoplaced yes)
 		(uuid "702f2fed-7ee9-4c84-834a-e837af326833")
 		(property "Reference" "H1"
-			(at 161.29 173.736 0)
+			(at 166.37 173.736 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8982,7 +8930,7 @@
 			)
 		)
 		(property "Value" "MountingScrew"
-			(at 161.29 181.356 0)
+			(at 166.37 181.356 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8993,7 +8941,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
-			(at 161.29 177.8 0)
+			(at 166.37 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9004,7 +8952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 177.8 0)
+			(at 166.37 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9015,7 +8963,7 @@
 			)
 		)
 		(property "Description" "Mounting screw"
-			(at 161.29 177.8 0)
+			(at 166.37 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9029,6 +8977,82 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Auxiliary_Items:MountingScrew")
+		(at 158.75 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70de0c09-3365-4fa1-9fc5-7dc3ce6eafdc")
+		(property "Reference" "H4"
+			(at 158.75 180.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingScrew"
+			(at 158.75 187.706 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+			(at 158.75 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting screw"
+			(at 158.75 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "WET_PCB_v2"
+				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -9057,7 +9081,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 229.87 125.476 0)
+			(at 229.362 125.476 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9438,85 +9462,6 @@
 			(project "WET_PCB_v2"
 				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 259.08 58.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7f6a92a3-58b8-445e-a034-eb1b100c3547")
-		(property "Reference" "J45"
-			(at 264.16 58.166 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TEST"
-			(at 260.604 60.198 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 259.08 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 259.08 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d042e433-30ce-4826-843d-eeaf8c963d35")
-		)
-		(pin "2"
-			(uuid "69f539c2-ecf4-4e18-99ca-51baf51240f3")
-		)
-		(instances
-			(project "WET_PCB_v2"
-				(path "/13451c35-1666-47d9-9525-8d8125ba1cf3"
-					(reference "J45")
 					(unit 1)
 				)
 			)
@@ -12535,7 +12480,7 @@
 	)
 	(symbol
 		(lib_id "Auxiliary_Items:MountingScrew")
-		(at 168.91 177.8 0)
+		(at 166.37 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12546,7 +12491,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7fdb84b-0170-4be1-9ccf-aa50da83b2c8")
 		(property "Reference" "H3"
-			(at 168.91 173.736 0)
+			(at 166.37 180.086 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12557,7 +12502,7 @@
 			)
 		)
 		(property "Value" "MountingScrew"
-			(at 168.91 181.356 0)
+			(at 166.37 187.706 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12568,7 +12513,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
-			(at 168.91 177.8 0)
+			(at 166.37 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12579,7 +12524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 177.8 0)
+			(at 166.37 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12590,7 +12535,7 @@
 			)
 		)
 		(property "Description" "Mounting screw"
-			(at 168.91 177.8 0)
+			(at 166.37 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13075,7 +13020,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 229.87 149.86 0)
+		(at 229.87 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13085,7 +13030,7 @@
 		(dnp no)
 		(uuid "f23472c1-8560-47c5-8adb-d15e74cddf76")
 		(property "Reference" "#PWR025"
-			(at 229.87 153.67 0)
+			(at 229.87 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13096,7 +13041,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 226.314 148.844 0)
+			(at 229.616 148.082 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13106,7 +13051,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 149.86 0)
+			(at 229.87 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13117,7 +13062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 149.86 0)
+			(at 229.87 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13128,7 +13073,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 229.87 149.86 0)
+			(at 229.87 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13827,7 +13772,7 @@
 			)
 		)
 		(pin "VDD_OPAMP" input
-			(at 232.41 149.86 180)
+			(at 232.41 152.4 180)
 			(uuid "64fb6f5a-659b-42d0-a1df-fc10c8dc9438")
 			(effects
 				(font
@@ -13847,7 +13792,7 @@
 			)
 		)
 		(pin "Vsense_in" input
-			(at 232.41 153.67 180)
+			(at 232.41 156.21 180)
 			(uuid "ace09617-4cc6-4766-8356-7b8484ad133a")
 			(effects
 				(font
@@ -14341,7 +14286,7 @@
 			)
 		)
 		(pin "Vsense_in" input
-			(at 232.41 134.62 180)
+			(at 232.41 137.16 180)
 			(uuid "15f9cec7-b51a-4934-9b75-a5cdf0631276")
 			(effects
 				(font
