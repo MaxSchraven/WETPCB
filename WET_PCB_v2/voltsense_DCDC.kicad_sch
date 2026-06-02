@@ -1489,7 +1489,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5.1kR"
 			(at 49.53 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1730,7 +1730,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0R"
 			(at 63.5 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1891,7 +1891,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0R"
 			(at 104.14 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2132,7 +2132,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100kR"
 			(at 49.53 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2438,10 +2438,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f4f89190-1fab-4dba-9ff0-4b1ca176d4b1")
 		(property "Reference" "JMP20"
-			(at 83.82 64.77 90)
+			(at 83.82 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2451,7 +2450,7 @@
 			)
 		)
 		(property "Value" "R0"
-			(at 83.82 67.31 90)
+			(at 83.82 75.946 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

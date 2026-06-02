@@ -1836,7 +1836,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" ""
 			(at 58.42 56.2609 0)
 			(show_name no)
 			(do_not_autoplace no)

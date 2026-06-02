@@ -2744,7 +2744,7 @@
 				)
 			)
 		)
-		(property "Value" "MF25_10K"
+		(property "Value" "10R"
 			(at 136.398 74.422 0)
 			(hide yes)
 			(show_name no)
@@ -4472,7 +4472,7 @@
 				)
 			)
 		)
-		(property "Value" "MF25_10K"
+		(property "Value" "10R"
 			(at 135.89 39.37 0)
 			(hide yes)
 			(show_name no)

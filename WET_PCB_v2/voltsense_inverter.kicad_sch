@@ -1034,6 +1034,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "auxilarry measurement choose ratio and populate when needed"
+		(exclude_from_sim no)
+		(at 85.344 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "23d72cdc-cd9a-4e40-8a4f-51690b4c7b15")
+	)
 	(junction
 		(at 53.34 48.26)
 		(diameter 0)
